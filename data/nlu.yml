@@ -37,6 +37,7 @@ nlu:
     - hallo
     - hi
     - halo, DPTSI 🙏🏻
+
 - intent: goodbye
   examples: |
     - good afternoon
@@ -65,6 +66,7 @@ nlu:
     - iya
     - terbantu
     - saya sudah merasa terbantu
+
 - intent: lisensi
   examples: |
     - office tidak appsnya perkenalkan bernadeta elie nama bernadeta elie departemen teknik sipil nrp username integra email mahasiswa integra its apps office 365 tidak muncul tunggu selasa dibilang tidak muncul muncul
@@ -148,6 +150,7 @@ nlu:
     - password emali its akses microsoft teams tanya me reset password email its login hp login email its password email bukan nrp password nrp gambar dilampirkan bisa status aktivasi microsoft teams alam kendala diaktivasi admin lampirkan gambarnya data nama fadrian athaya muzhaffar fakultas teknologi laut departemen teknik laut nrp email its fadrian mhs its email pribadi rianathaya ymail com kian
     - email its matlab error nama deanova ghivari alzamora nrp mahasiswa si teknik mesin izin keluh perihal daftar akun matlab akun website mathworks email alam masalah lihat gambar sertakan
     - aktivasi microsoft team admin dptsi kait aktivasi microsoft teams bisa akun aktivasi perlu kelas
+
 - intent: data_integra
   examples: |
     - tidak bisa verif nomor handphone siakad caleb effendi mahasiswa nrp lapor tidak bisa verifikasi nomor handphone memverifikasi biodata siakad tidak bisa dosen wali frs nomor telepon
@@ -213,6 +216,7 @@ nlu:
     - email myits nama nugraha akbar nurhakim nrp nrp ganti ganti pilih email mailbox mahasiswa isi email utama my its ganti email utama email ganti mailbox
     - tidak kode verifikasi nomor hp tidak kode verifikasi nomor hp nomor hp
     - ubah biodata tanggal lahir muncul entry kuesioner tidak suai nama tri susanto tanggal lahir blitar mei nrp
+
 - intent: daftar_forlapsivil
   examples: |
     - no ijazah tidak daftar sivil barusan kecek berkali kali no ijazah sivil website https ijazah ristekdikti go website tulis data tidak ditemukan pastikan isi nama pt prodi coba kali data tidak ditemukan data masukkan kabar data no iazah belum diupdate its mohon selesai masalah perlu verifikasi dokumen cpns
@@ -299,6 +303,7 @@ nlu:
     - ijazah tidak sivil kemenristekdikti alumni its angkat ikut wisuda verifikasi ijazah sivil kemenristekdikti daftar kerja laman data ijazah tidak daftar muncul data tidak ditemukan pastikan isi nama pt program studi wisuda diinputkan belum ya mohon bantunnnya mendapaftar cpns ucapkan
     - daftar nomor ijazah ristek dikti muhammad taufiqi lulus si fisika its minta service desk its dapat daftar nomor ijazah si si dilampirkan ucapkan salam muhamad taufiqi
     - ijazah tidak daftar perkenalkan nama intan andriani putri alumni fisika mipa its angkat data ijazah tidak ditemukan verifikasi laman https ijazah ristekdikti go index php mohon daftar cpns lampir scan ijazah serta transkrip
+
 - intent: sim
   examples: |
     - integra mohon maaf perkenalkan lusthya mahasiswa tf isi ipd tidak bisa ya laman integra tanggal juni tanggal ditutup nilai tidak bisa ipd tidak bisa diisi
@@ -365,6 +370,7 @@ nlu:
     - finger print tidak deteksi absen departemen manajemen bisnis tanggal si februari tida bisa bisa kedeteksi dosen tendik mohon ditindaklanjuti
     - my its wali tidak bisa login nama syaiful bahri dirgantara nrp orang tua tidak bisa login my its wali username password dimasukkan suai arah nomor hp tanggal lahir
     - entri esurat admin integra its kemarin tercreate tu_ftspk its user anggap proses facing out tu_ftslk its tu_fadp its surat create user tu_ftspk its masalah timbul kirim surat e surat kontak internalnya duduk ft spk tidak mohon solusi kontak kirim nomor user tu_ftspk its
+
 - intent: my_its_integra
   examples: |
     - reset password integra dptsi mohon bantuanya reset password integra username ir atok setiyawan eng sc
@@ -513,6 +519,7 @@ nlu:
     - reset password integra minta reset password integra keliru sistem lupa
     - tidak bisa login my its sso dptsi mohon doseng nama i putu tedja integra unit dept studi bangun dosen tidak bisa login my its sso presensi online tetapi login integra bisa mohon
     - reset password integra tim dptsi mohon mereset password integra dosen t industri user nip nama patdono suwignjo
+
 - intent: vpn
   examples: |
     - saya ingin mengajukan akses vpn untuk akses repository its
@@ -550,6 +557,7 @@ nlu:
     - vpn bermasalah dptsi team widya alam masalah akses internet open vpn vpn diaktifkan situs dibuka tampil indikasi internet tidak private gambar lampir ya coba request ulang akses internet gagal request akses tanggal januari jadi januari asumsi masalah jaring internet tetapi akses internet vpn teman alam akses internet its vpn
     - tidak bisa akses vpn its admin dptsi rarasmaya indraswari dosen departemen sistem informasi npp coba akses vpn its menu one time password integra its app php perlu akses jurnal springer dll coba minta akses my its otp akses muncul mahasiswa tidak muncul username password vpn request mohon bisa request vpn its rarasmaya indraswari
     - vpn akses vpn daftar proxy its its mahasiswa mmt kelas kerjasama jakarta akses jurnal dilanggan its
+
 - intent: internet
   examples: |
     - tidak dapat mengakses internet
@@ -603,6 +611,7 @@ nlu:
     - jaring gedung sistem informasi lemot mohon kecek ststus akses switch gedung departemen sistem informasi kecepatanya mbps mbps koneksi kabel lan spesifik port jaring mohon
     - wifi scc lantai direktorat kembang teknologi sistem informasi nama wakil ukm scc lantai minta dukung direktorat kembang teknologi sistem informasi fasilitas jaring internet wi scc lantai belum ter _ cover _ signal its wifi wifi its scc tidak bisa butuh koneksi internet tunjang aktivitas mahasiswa scc lantai ukm nalar lpm tidak lepas riset telusur informasi keluh
     - tidak bisa connect kabel internet putus sambung
+
 - intent: zoom
   examples: |
     - lisensi zoom
@@ -616,6 +625,7 @@ nlu:
     - saya ingin mengajukan lisensi zoom
     - permisi, saya ingin mengajukan akun zoom untuk kepentingan departemen
     - saya ingin mengajukan zoom premium its
+
 - intent: dom_host
   examples: |
     - domain
