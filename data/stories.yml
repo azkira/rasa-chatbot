@@ -51,8 +51,8 @@ stories:
 
 - story: my_its_integra_story
   steps:
-  - intent: myitsintegra
-  - action: utter_myitsintegra
+  - intent: my_its_integra
+  - action: utter_my_its_integra
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
