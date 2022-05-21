@@ -12,7 +12,7 @@ stories:
   steps:
   - intent: lisensi
     entities:
-    - teams: "teams"
+    - teams: 'teams'
   - action: utter_lisensi
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
@@ -21,7 +21,7 @@ stories:
   steps:
   - intent: lisensi
     entities:
-    - office: "office"
+    - office: 'office'
   - action: utter_lisensi
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
@@ -30,7 +30,7 @@ stories:
   steps:
   - intent: lisensi
     entities:
-    - azure: "azure"
+    - azure: 'azure'
   - action: utter_lisensi
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
