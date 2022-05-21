@@ -67,87 +67,87 @@ nlu:
     - saya sudah merasa terbantu
 - intent: lisensi
   examples: |
-    - [azure]{"entity":"azure","value":"azure"}
-    - [microsoft azure]{"entity":"azure","value":"microsoft azure"}
-    - [office]{"entity":"office","value":"office"} tidak appsnya perkenalkan bernadeta elie nama bernadeta elie departemen teknik sipil nrp username integra email mahasiswa integra its apps [office 365]{"entity":"office","value":"office 365"} tidak muncul tunggu selasa dibilang tidak muncul muncul
-    - [microsoft teams]{"entity":"teams","value":"microsoft teams"} send request problem aju keluh [microsoft team]{"entity":"teams","value":"microsoft team"} tama beri integrasi [office]{"entity":"office","value":"office"} office365 hasil buka [microsoft teams]{"entity":"teams","value":"microsoft teams"} versi desktop join grup perkuliahan dosen invite link klik send request ditunggu tidak ubah tampilannya member request kirim dikonfirmasi dosen sangkut dosen tidak terima pending request solusinya besok perkuliahannya perkuliahan dosen prof arif djunaidy mata kuliah manajemen data informasi si
-    - tidak bisa akses [microsoft team]{"entity":"teams","value":"microsoft team"} mohon maaf menggangunya nama woro reswari nrp sign [microsoft team]{"entity":"teams","value":"microsoft team"} muncul you re missing out belum aktifkan [microsoft team]{"entity":"teams","value":"microsoft team"} its aktifkan [microsoft team]{"entity":"teams","value":"microsoft team"} lengkap data nama woro reswari departemen teknik kapal nrp username integra
-    - aktivasi windows [microsoft azure]{"entity":"azure","value":"microsoft azure"} nama aldy setiadi nrp mahasiswa teknik kapal aktif email mahasiswa dapat akses microdoft azure windows lainya
+    - office tidak appsnya perkenalkan bernadeta elie nama bernadeta elie departemen teknik sipil nrp username integra email mahasiswa integra its apps office 365 tidak muncul tunggu selasa dibilang tidak muncul muncul
+    - microsoft teams send request problem aju keluh microsoft team tama beri integrasi office office365 hasil buka microsoft teams versi desktop join grup perkuliahan dosen invite link klik send request ditunggu tidak ubah tampilannya member request kirim dikonfirmasi dosen sangkut dosen tidak terima pending request solusinya besok perkuliahannya perkuliahan dosen prof arif djunaidy mata kuliah manajemen data informasi si
+    - tidak bisa akses microsoft team mohon maaf menggangunya nama woro reswari nrp sign microsoft team muncul you re missing out belum aktifkan microsoft team its aktifkan microsoft team lengkap data nama woro reswari departemen teknik kapal nrp username integra
+    - aktivasi windows microsoft azure nama aldy setiadi nrp mahasiswa teknik kapal aktif email mahasiswa dapat akses microdoft azure windows lainya
     - aktivasi visio direktorat pengenmbangan teknologi sitem informasi its ticket minta aktivasi aplikasi visio perlu tugas i made setia ananda
-    - kendala akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} admin dpptsi ditempat edwardo yeremia saragi nrp keluh akses akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} terkendala masukkan akun its akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} akun nrp mahasiswa integra its page [microsoft teams]{"entity":"teams","value":"microsoft teams"} belum enable its saran kian keluh ucapkan
+    - kendala akun microsoft teams admin dpptsi ditempat edwardo yeremia saragi nrp keluh akses akun microsoft teams terkendala masukkan akun its akun microsoft teams akun nrp mahasiswa integra its page microsoft teams belum enable its saran kian keluh ucapkan
     - lisensi minitab eror mohon lisesi minitab eror
-    - software [microsoft office]{"entity":"office","value":"microsoft office"} microsoft visio 365 wfh rumah file microsoft excel word power point tidak bisa dibuka microsoft [office 365]{"entity":"office","value":"office 365"} ingat coba unduh microsoft google dibuka filenya tidak bisa diedit masuk kode lisensi mohon akses software [microsoft office]{"entity":"office","value":"microsoft office"} microsoft visio 365 bagan dibutuhkan prosedur dokumen iso
-    - microsoft license aldifta krisna wibawa nrp departemen teknik kapal joint degree keluh kait aktifasi miscrosoft teams dimana aktif 365 coba buka teams kelas kimia report card tulis your license doesnt include access [microsoft teams]{"entity":"teams","value":"microsoft teams"}
+    - software microsoft office microsoft visio 365 wfh rumah file microsoft excel word power point tidak bisa dibuka microsoft office 365 ingat coba unduh microsoft google dibuka filenya tidak bisa diedit masuk kode lisensi mohon akses software microsoft office microsoft visio 365 bagan dibutuhkan prosedur dokumen iso
+    - microsoft license aldifta krisna wibawa nrp departemen teknik kapal joint degree keluh kait aktifasi miscrosoft teams dimana aktif 365 coba buka teams kelas kimia report card tulis your license doesnt include access microsoft teams
     - request licensi visio mahasiswa its nrp akses microsoft visio 365
-    - [office 365]{"entity":"office","value":"office 365"} this is your [office 365]{"entity":"office","value":"office 365"} home pagedanmdash where you can sih and access all of your [office 365]{"entity":"office","value":"office 365"} apps if si empty could be that your user license was very recently assigned you wait minutes and refresh this page if you still don t sih any apps contact your department they can help you get up and running proses sinkronisasi web office muncul butuh akun login app teams harus email its email its ariq mhs its email microsoft mahasiswa integra its uname integra
+    - office 365 this is your office 365 home pagedanmdash where you can sih and access all of your office 365 apps if si empty could be that your user license was very recently assigned you wait minutes and refresh this page if you still don t sih any apps contact your department they can help you get up and running proses sinkronisasi web office muncul butuh akun login app teams harus email its email its ariq mhs its email microsoft mahasiswa integra its uname integra
     - aktivasi akun email microsoft azzure mailbox mahasiswa aktivasi akun email microsoft azzure mailbox mahasiswa web login integra nya enggak bisa redirec
     - request aktivasi visio nama rico pardona pardosi nrp
     - lupa login akun microsoft login teams lupa password nya
     - enggak bisa login teams enggak bisa login teams ya pakai email mahasiswa integra its password suai integra sinkronisasi web
-    - tidak dapat akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} admin dptsi fina mufarrih departemen teknik kapal nrp tidak dapat akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} password salah
-    - lisensi [office 365]{"entity":"office","value":"office 365"} tidak dapat akses [office 365]{"entity":"office","value":"office 365"} belum lisensi
-    - [office 365]{"entity":"office","value":"office 365"} user integra belum bisa akses lisensi [office 365]{"entity":"office","value":"office 365"} proses sinkronisasi belum selesai mohon email its qaisazhar mhs its username integra
+    - tidak dapat akses microsoft azure admin dptsi fina mufarrih departemen teknik kapal nrp tidak dapat akses microsoft azure password salah
+    - lisensi office 365 tidak dapat akses office 365 belum lisensi
+    - office 365 user integra belum bisa akses lisensi office 365 proses sinkronisasi belum selesai mohon email its qaisazhar mhs its username integra
     - product key windows warohmatulloh wabarokatuh perkenalkan moh faslil fawaidi mahasiswa teknik fisika its sempat tanya product key mahasiswa its software windows kali pakai product key akses wes integra its app php http integra its app php software windows serta product key nya tidak bisa akses web mohon saran nya
     - aktivasi windows tidak bisa aktivasi windows
-    - mekanisme akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} coba masuk fitur microsft azure balas request fdbd e ba f correlation afdadc f ab ffdb timestamp t message aadsts the user account vhujvzkesamelqxqhyxg does not exist the dac ccb bfccac directory sign into this application the account must be added the directory mohon terang akses [microsoft azure]{"entity":"azure","value":"microsoft azure"}
+    - mekanisme akses microsoft azure coba masuk fitur microsft azure balas request fdbd e ba f correlation afdadc f ab ffdb timestamp t message aadsts the user account vhujvzkesamelqxqhyxg does not exist the dac ccb bfccac directory sign into this application the account must be added the directory mohon terang akses microsoft azure
     - aktivasi microsoft 365 mahasiswa its jurus teknik kimia nama fa izul qholbi tamimi nrp mohon izin tidak bisa aktivasi microsoft 365 mohon
-    - keluh aktivasi akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} sinkronisasi [office 365]{"entity":"office","value":"office 365"} tetapi log [microsoft teams]{"entity":"teams","value":"microsoft teams"} tidak dapat log menghubingi admin ada microsoft teamsnya
+    - keluh aktivasi akun microsoft teams sinkronisasi office 365 tetapi log microsoft teams tidak dapat log menghubingi admin ada microsoft teamsnya
     - windows activation athiyya karima nrp tanya aktivasi windows buka laman dptsi muncul notifikasi tidak hak akses halaman coba ikut pandu its tetapi belum bisa mohon
-    - akses [microsoft teams]{"entity":"teams","value":"microsoft teams"} ivandy halim pwk tanya guna [microsoft teams]{"entity":"teams","value":"microsoft teams"} login muncul dibawah bisa aktif
-    - password salah login [microsoft teams]{"entity":"teams","value":"microsoft teams"} admin dptsi winda seviani nrp keluh login [microsoft teams]{"entity":"teams","value":"microsoft teams"} handphone password salah diketikkan suai password integra coba kali tetapi tidak bisa butuh [microsoft teams]{"entity":"teams","value":"microsoft teams"} tunjang langsung praktikum online besok selasa oktober minggu dapat ucapkan
-    - lisensi 365 office tidak dapat akses [office 365]{"entity":"office","value":"office 365"} belum lisensi
+    - akses microsoft teams ivandy halim pwk tanya guna microsoft teams login muncul dibawah bisa aktif
+    - password salah login microsoft teams admin dptsi winda seviani nrp keluh login microsoft teams handphone password salah diketikkan suai password integra coba kali tetapi tidak bisa butuh microsoft teams tunjang langsung praktikum online besok selasa oktober minggu dapat ucapkan
+    - lisensi 365 office tidak dapat akses office 365 belum lisensi
     - tidak bisa akses teams web tidak bisa akses teams login office365 mengklik menu teams kiri menu loading tulis checking your credentials diarahkan hubung organisasi pusatnya its aplikasi bisa mohon solusinya
     - minta software visio sedia visio
-    - [office]{"entity":"office","value":"office"}
-    - [o365]{"entity":"office","value":"o365"}
-    - [365]{"entity":"office","value":"365"}
-    - [excel]{"entity":"office","value":"excel"}
-    - [word]{"entity":"office","value":"word"}
-    - [powerpoint]{"entity":"office","value":"powerpoint"}
-    - [microsoft excel]{"entity":"office","value":"microsoft excel"}
-    - [microsoft word]{"entity":"office","value":"microsoft word"}
-    - [microsoft powerpoint]{"entity":"office","value":"microsoft powerpoint"}
-    - cara mengakses [office 365]{"entity":"office","value":"office 365"} mahasiswa baru
-    - sinkronisasi o365 email its mahasiswa its username integra status kemarin sikronisasi password email its tidak bisa dimasukkan password integra
-    - masalah penginstallan [office 365]{"entity":"office","value":"office 365"} download [office 365]{"entity":"office","value":"office 365"} website its install aplikasi laptop tetapi run jam belum selesai foto lampir windows memori sisa gb ram gb username integra email yuvita mhs its
-    - lapor sinkronisasi [office 365]{"entity":"office","value":"office 365"} lptsi its perkenalkan nama munadhia mahasiswi si departemen teknik lingkung nrp tulis email tuju lapor sulit masuk portal [office 365]{"entity":"office","value":"office 365"} niat unduh [office 365]{"entity":"office","value":"office 365"} laptop coba masuk portal [office 365]{"entity":"office","value":"office 365"} kamis tanggal agustus tunggu proses sinkronisasi jam tetapi tidak hasil coba jumat sabtu tetapi belum hasil mohon lptsi dapat kait sulit wassalamu
-    - email its subdit dptsi its vina rizky andina nrp sehubungan layak naskah tugas online mohon reset ulangkan password email its lupa password email its vina mhs chem its
-    - [office 365]{"entity":"office","value":"office 365"} tidak bisa download klaim lisensi [office 365]{"entity":"office","value":"office 365"} integra apps tidak bisa didownload office 365nya dapat browser mohon solusinya email its nandaffa mhs its gmail mahasiswa integra its microsoft username integra
-    - tidak bisa masuk e mail akun dinonaktifkan its diganti masuk email tidak bisa terang user name array status error o365_id efbed wonedjcyjqcmb ima msg belum mailbox assign mohon ditindaklanjuti bisa masuk email its asrama its
-    - lupa password user email its benar nama sitti afifah karimah barata benar nama daftar lupa pas user email its
-    - tambah quota email service desk sehubungan ada barang jasa its tambah quoto email dapat kerjasamanya salam
-    - dptsi lupa password email its al mhs its
-    - akun email its nadhifah astari putri departemen biologi nrp tanya perihal akun email its email its lupa username passwordnya bisa kait tidak masalah layan web its daftar email gmail pribadi layan liput integra service desk zoom
-    - gagal sinkronisasi [office 365]{"entity":"office","value":"office 365"} kepala dptsi mohon mahasiswa angkat keluh proses sinkronisasi tidak hasil beliau coba proses sinkronisasi semester muncul tulis proses sinkronisasi butuh menit user integra beliau nama nila muhaimatul adhimah
-    - sulit akses azure [office 365]{"entity":"office","value":"office 365"} muhammad irsyad aziz departemen tek mesin industri nrp alam sulit akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} masuk user and pas notifnya incorrect user orang password type the correct user and password and try again [office 365]{"entity":"office","value":"office 365"} tunggu menit belum ubah
-    - kendala proses sinkronisasi office365 its _ mayra andrakayana andrakayana gmail com okt jam https mail google com mail lu images cleardot gif https mail google com mail lu images cleardot gif dptsi https mail google com mail lu images cleardot gif dptsi mayra andrakayana nrp mahasiswi departemen rencana wilayah kota ftspk its niat unduh [office 365]{"entity":"office","value":"office 365"} offline ikut langkah langkah tera https www its dptsi [office 365]{"entity":"office","value":"office 365"} students terkendala proses sinkronisasi menit tidak kunjung selesai kemarin solusi bisa lakukan
-    - akun [office 365]{"entity":"office","value":"office 365"} alaykum warahmatullahi wabarakatuh admin dptsi its ika puspita mahasiswa si teknik fisika tidak dapat akses teams akun [office 365]{"entity":"office","value":"office 365"} akun belum licence mohon dapat kait informasi email its integra email its mahasiswa integra its username integra
-    - mengaktivasi [office 365]{"entity":"office","value":"office 365"} buka https its o365 run php tulis proses sinkronisasi proses sinkronisasi cek menit
-    - reset password email mohon dapatnya reset password email its umairi its
-    - login [MS azure]{"entity":"azure","value":"MS azure"}
-    - cara mendapatkan [azure]{"entity":"azure","value":"azure"} lisensi ITS
-    - menggunakan [azure]{"entity":"azure","value":"azure"} ITS
-    - ITS [MS azure]{"entity":"azure","value":"MS azure"}
-    - [microsoft azure]{"entity":"azure","value":"microsoft azure"}
-    - [azure]{"entity":"azure","value":"azure"} hosting its
-    - [azure]{"entity":"azure","value":"azure"} gratis its
-    - akun [azure]{"entity":"azure","value":"azure"} dari its
-    - cara daftar [azure]{"entity":"azure","value":"azure"} dari its
-    - login [azure]{"entity":"azure","value":"azure"} dengan email its
-    - bagaimana cara mendapatkan layanan [azure]{"entity":"azure","value":"azure"} ITS
-    - saya ingin bertanya bagaimana untuk dapat mengajukan akun [azure]{"entity":"azure","value":"azure"}
-    - saya ingin mengajukan akun [azure]{"entity":"azure","value":"azure"} lisensi ITS
-    - apakah mahasiswa mendapatkan akun [azure]{"entity":"azure","value":"azure"} dari ITS
-    - login [MS teams]{"entity":"teams","value":"MS teams"}
-    - cara mendapatkan [teams]{"entity":"teams","value":"teams"} lisensi ITS
-    - menggunakan [teams]{"entity":"teams","value":"teams"} ITS
-    - ITS MS [teams]{"entity":"teams","value":"teams"}
-    - [microsoft teams]{"entity":"teams","value":"microsoft teams"}
-    - [teams]{"entity":"teams","value":"teams"} hosting its
-    - [teams]{"entity":"teams","value":"teams"} gratis its
-    - akun [teams]{"entity":"teams","value":"teams"} dari its
-    - cara daftar [teams]{"entity":"teams","value":"teams"} dari its
-    - login [teams]{"entity":"teams","value":"teams"} dengan email its
+    - autocad raihan rizki chandra teknik lingkung tanya microsoft azure tidak temu windows versi windows pro temukan education dowload windows education auto cad app unduh its bisa didapatkan kali bisa kali
+    - tidak bisa akses microsoft azure mohamad haidler ali syafi i salah mahasiswa institut teknologi puluh nopember departemen teknik mesin industri fakultas vokasi nrp masalah tidak bisa akses microsoft azure ganti email its mahasiswa its haidler mhs its harap masalah bisa diatasi
+    - akun email its tidak deteksi butuh admin menginstall visio dptsi perkenalkan nurdiana ratna puri mahasiswa teknik kimia angkat nrp butuh admin memverikasi akun penginstallan visio kemarin menginstall visio tetapi tidak bisa masuk akun its mahasiswa integra its tera tuju admin lambat tanggal oktober mohon bantuannnya butuh aplikasi tugas
+    - masalah menginstal microsoft 365 coba menginstal microsoft 365 sinkron belum sinkron masalah servernya mohon
+    - aktifasi microsoft teams faiqur rifqi mahasiswa jurus teknik kimia its alam kendala aktifasi akun google teams tidak bisa gabung kelas mohon
+    - lupa password akun azure akun mahasiswa integra its passwordnya ya lupa simpan best achmad
+    - request akses microsoft visio 365 admin dptsi request akses microsoft visio 365 sinkronisasi o365 portal sso ucapkan
+    - email its password tidak bisa login perkenalkan lidiya berliana ayu haryono mahasiswa departemen teknik sistem industri nrp mohon maaf dptsi tidak dapat login software microsoft team email mahasiswa its mahasiswa its passwordnya pasword integra tetapi bisa masuk microsoft team website data dapat diperbaiki dapat masuk microsoft team softwarenya langsung departement minta mendownload software team
+    - tanya aktivasi software aktivasi software unduh its ya ikut instruksi unduh its tidak bisa
+    - microsoft visop 365 assalamualaykum tanya akses menginstal microsoft visio
+    - keluh https servicedesk its uploads default png https servicedesk its index php profile maharani maharani https servicedesk its index php profile maharani keluh nama maharani callista shafhah nrp departemen statistika bisnis email its maharanishafhah mhs its username integra problem tidak bisa akses microsoft teams mohon
+    - office 365 tidak bisa akses office 365 belum lisensi
+    - aktifasi windows perkenalkan ritter moses departemen biologi nrp inin tanya perihal aktivasi windows tidak bisa mengaktivasi windows web https integra its app php klik menu aktivasi produk microsoft web ubah hasil screen shoot lampirkan
+    - password email its akun microsoft teams direktorat kembang teknologi sistem informasi sehubungan akun email its dapat masuk integra bisa password email its direct linked integra akun masuk microsoft team attach files perhati salam agung hardiarto
+    - office 365 mahasiswa integra its username mohon maaf office laptop unlicensed minta office aktivasi change key product bisa masalah
+    - tidak bisa akses microsoft mohon bisa servicedesk its lengkap data tim stand by nama syafrina ari putri departemen teknik sistem industri nrp username integra problem tidak bisa akses microsoft
+    - tidak bisa akses microsoft abid meihendra suswanto teknik sipil username integra
+    - minta pelisensian office 365 direktorat kembang teknologi sistem informasi perkenalkan ellyzia sukma ningtiar mahasiswa kimia its minta melisensikan mensinkronsasikan office 365 nama email its ellyzia mhs its butuhkan tunjang perkuliahan mata kuliah mata kuliah kimia membran perlu kolokium tugas butuh office 365 surat perhati ucapkan ellyzia sukma ningtiar
+    - visio activation dptsi mohon akun mahasiswa integra its diaktifkan visionya
+    - lisensi microsoft visual studio kait aktivasi microsoft visual studio akun its aktivasi hasil buka microsoft visual studio notifikasi aktivasi gagal its langgan software
+    - lisensi minitab error instalasi minitab lisensi tidak dapat tunjang perkuliahan statistika bisnis mmt its kelas analitika bisnis jakarta
+    - tidak bisa akses microsoft tidak bisa sinkron nrp ubah nama yuslifar aulia muhammad departemen teknik sistem industri nrp username integra problem tidak bisa akses microsoft
+    - tidak bisa login produk microsoft tidak bisa login akun gmail its login produk microsoft tidak bisa login login email its tidak bisa login
+    - akun microsoft teams nama rizka amalia shafira nrp maaf email tulis email pribadi tidak bisa taruh email its tuju kirim tanya login akun microsoft teams its muncul page instruksi admin men enable akun foto lampir admin dptsi mohon men enable akun microsoft teams mahasiswa integra its
+    - tidak dapat akses microsoft azzure office 365 dptsi its alam keluh daftar microsoft azzure office 365 email its mahasiswa integra email fajaryudanto mhs its password integra tetapi microsoft azzure tidak dapat akses penting utama daftar office 365 microsoft teams perkuliahan mohon batu aktif microsoft azzurenya
+    - office 365 license office 365 word excel tulis unlicense
+    - email tidak bisa sinkron mengaktivasi office windows lisensi milik its perlu kuliah online email tidak bisa sinkron bisa dibantun dibenarkan email amru mhs its
+    - kendala install office 365 adelina farfaza mahasiswa tanya menaktifkan office 365 tetapi masuk portal office nya muncul tulis new office 365 this is your office 365 home pagedanmdash where you can sih and access all of your office 365 apps if si empty could be that your user license was very recently assigned you wait minutes and refresh this page if you still don t sih any apps contact your department they can help you get up and running microsoft office home tunggu menit refresh solusinya ya
+    - tidak bisa akses microsoft azzure password sign microsoft azzure tidak coba password integra nomer daftar tanggal lahir cerah
+    - email its tidak lisensi matlab mohon legal tanya sumbernya lantas khusus ulang ulang kali coba link kirim tidak bisa mohon
+    - tidak bisa akses teams nih putu riska shyndi leonita departemen aktuaria nrp coba login teams email dapat its muncul tulis lisensi tidak cangkup akses microsoft teams mintalah akses administrator ti lakukan langkah
+    - akun sharepoint microsoft office 365 tidak bisa akses sharepoint its perlu mata kuliah teknik informatika request office 365 belum bisa integra its app php
+    - tengku rafly r aktivasi labview admin lptsi hormat mengaktivasi lisensi labview mohon diaktifkan tengku rafly r
+    - aktivasi minitab minitab instal tidak bisa dirun muncul error kait lisensi menginstal dimasukkan server lisensi suai petuntuk tampilan error lampirkan mohon
+    - aktivasi visio mahasiswa pasca sih angkat gasal key visio ya teman teman memberitahu portal azure com tetapi sql server dev visual studio machine learning server bisa guide aktifasi nya teman bisa halaman https portal azure com microsoft_azure_education_correlationid fef fa e sih ed blade microsoft_azure_education educationmenublade software akun integra its portal
+    - akses microsoft visio 365 admin dptsi aju akses microsoft visio 365 tunjang kerja tugas
+    - office 365 azure keluh perihal office 365 azure tidak bisa nrp ganti nrp ganti bisa aktifkan office 365 azure nrp ganti office 365 azure tidak bisa dibuka password email its login azure password email its coba password integra tetapi tidak bisa perhati email its remelia mhs its email integra remelianovendhita gmail com username integra email microsoft mahasiswa integra
+    - office 365 masalah lisensi belum ditetapkan email its mahasiswa integra its zahara mhs its username integra
+    - tidak bisa login microsoft teams nama ivan laurent himawan nrp tidak bisa login teams email its tidak bisa aktivasi office 365 ganti password integra masukkan portal office com tidak bisa
+    - instalasi visio 365 aisyah mahasiswi teknik transportasi laut its pohon akses instalasi software visio 365 giat perkuliahan perhati ucapkan email integra mahasiswa integra its
+    - kendala microsoft teams mohon maaf naufal raihan andayuri dept statistika nrp keluh alami akses microsoft teams sinkronisasi office 365 web integra sinkronisasi tidak kunjung selesai tidak dapat login microsoft teams matkul butuh teams
+    - tidak bisa unduh matlab bit unduh its disarankan dosen unduh software matlab unduh its its legalitas software login pilih aplikasi matlab matlab ribu win lisensi concurrent gb klik unduh muncul command pengunduhan gagal corupt filenya solusinya
+    - minta pelisensian produk office 365 admin direktorat kembang teknologi sistem informasi perkenalkan syarah habibah balqis nrp mahasiswi departemen kimia angkat minta kait melisensikan mensinkronisasikan office 365 nama email its syarahbalqis mhs is butuhkan perlu kolokium tugas butuh office 365 selesai syarah habibah balqis
+    - license minitab lisensi software minitab server license tidak bisa diakses dilingkungan its
+    - unduh microsoft windows license username email syawjesil mhs its memperbaharui microsoft office laptop tidak berlisensi ya coba mendownload microsoft office unduh its tetapi tidak bisa login masuk password integra memperbaharui windows laptop berlisensi
+    - aktivasi akun microsoft nama ramadhan daru nur ananda nrp keluh tidak bisa aktivasi akun microsoft
+    - akun microsoft azur nama ahmad hazim izzal khaqi nrp gmail haqqiizzal gmail mintak reset akun info tetang akun
+    - acces microsoft teams denied sulit login ulang sign up beritahukan kontak helpdesk its tidak bisa login email its
+    - tidak bisa login microsoft teams tidak bisa login microsoft teams butuh upload file tugas mohon
+    - password emali its akses microsoft teams tanya me reset password email its login hp login email its password email bukan nrp password nrp gambar dilampirkan bisa status aktivasi microsoft teams alam kendala diaktivasi admin lampirkan gambarnya data nama fadrian athaya muzhaffar fakultas teknologi laut departemen teknik laut nrp email its fadrian mhs its email pribadi rianathaya ymail com kian
+    - email its matlab error nama deanova ghivari alzamora nrp mahasiswa si teknik mesin izin keluh perihal daftar akun matlab akun website mathworks email alam masalah lihat gambar sertakan
+    - aktivasi microsoft team admin dptsi kait aktivasi microsoft teams bisa akun aktivasi perlu kelas
 - intent: data_integra
   examples: |
     - tidak bisa verif nomor handphone siakad caleb effendi mahasiswa nrp lapor tidak bisa verifikasi nomor handphone memverifikasi biodata siakad tidak bisa dosen wali frs nomor telepon

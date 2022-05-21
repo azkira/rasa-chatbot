@@ -1,90 +1,63 @@
 version: "2.0"
 
 stories:
-- story: lisensi_story
+- story: lisensi story
   steps:
   - intent: lisensi
   - action: utter_lisensi
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
-
-- story: teams_story
-  steps:
-  - intent: lisensi
-    entities:
-    - teams: 'teams'
-  - action: utter_lisensi
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: office_story
-  steps:
-  - intent: lisensi
-    entities:
-    - office: 'office'
-  - action: utter_lisensi
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: azure_story
-  steps:
-  - intent: lisensi
-    entities:
-    - azure: 'azure'
-  - action: utter_lisensi
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: daftar_forlapsivil_story
+  
+- story: daftar forlapsivil story
   steps:
   - intent: daftar_forlapsivil
   - action: utter_daftar_forlapsivil
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: sim_story
+- story: sim story
   steps:
   - intent: sim
   - action: utter_sim
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: my_its_integra_story
+- story: my its integra story
   steps:
   - intent: my_its_integra
   - action: utter_my_its_integra
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: vpn_story
+- story: vpn story
   steps:
   - intent: vpn
   - action: utter_vpn
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: internet_story
+- story: internet story
   steps:
   - intent: internet
   - action: utter_internet
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: zoom_story
+- story: zoom story
   steps:
   - intent: zoom
   - action: utter_zoom
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: dom_host_story
+- story: dom host story
   steps:
   - intent: dom_host
   - action: utter_dom_host
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
-- story: user provides feed_back
+- story: user provides feed back
   steps:
   - checkpoint: ask_feed_back
   - intent: affirm
