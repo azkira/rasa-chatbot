@@ -51,23 +51,6 @@ responses:
   utter_feed_back:
   - text: "Kami meminta untuk mengisi form berikut sebagai lembar feedback. https://forms.gle/uUbyrjj2YBTcZRtJ8. Terima Kasih. "
 
-actions:
-- "..."
-- "utter_greet"
-- "utter_my_its_integra"
-- "utter_did_that_help"
-- "utter_sim"
-- "utter_vpn"
-- "utter_data_integra"
-- "utter_internet"
-- "utter_dom_host"
-- "utter_goodbye"
-- "utter_o_365"
-- "utter_zoom"
-- "utter_teams"
-- "utter_azure"
-- "utter_feed_back"
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
