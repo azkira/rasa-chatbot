@@ -79,8 +79,8 @@ stories:
 
 - story: dom_host_story
   steps:
-  - intent: domhost
-  - action: utter_domhost
+  - intent: dom_host
+  - action: utter_dom_host
   - action: utter_did_that_help
   - checkpoint: ask_feed_back
 
