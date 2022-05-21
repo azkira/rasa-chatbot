@@ -51,6 +51,8 @@ nlu:
     - bye bye
     - see you later
     - sampai jumpa
+    - Thank You
+    - Terima Kasih
 - intent: affirm
   examples: |
     - yes
@@ -63,26 +65,6 @@ nlu:
     - iya
     - terbantu
     - saya sudah merasa terbantu
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - tidak
-    - tidak, saya tidak mau
-    - tidak mau
-    - tidak setuju
-  
-- intent: thank
-  examples: |
-    - Terima kasih
-    - Baik
-    - Terima kasih banyak
-    - baik, terima kasih
 - intent: lisensi
   examples: |
     - [azure]{"entity":"azure","value":"azure"}
