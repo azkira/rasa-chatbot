@@ -36,7 +36,7 @@ nlu:
     - hood day
     - hallo
     - hi
-    - halo, DPTSI 🙏🏻
+    - halo, DPTSI 
 
 - intent: goodbye
   examples: |
