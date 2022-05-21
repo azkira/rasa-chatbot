@@ -54,6 +54,7 @@ nlu:
     - sampai jumpa
     - Thank You
     - Terima Kasih
+    
 - intent: affirm
   examples: |
     - yes
