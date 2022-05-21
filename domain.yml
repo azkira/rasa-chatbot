@@ -4,55 +4,30 @@ intents:
   - greet
   - goodbye
   - affirm
-  - lisensi
-  - data_integra
-  - daftar_forlapsivil
-  - sim
-  - my_its_integra
-  - vpn
-  - internet
-  - zoom
-  - dom_host
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
 
 responses:
   utter_greet:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  - text: "Hey! How are you?"
 
-  utter_my_its_integra:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  - text: "Did that help you?"
 
-  utter_sim:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_vpn:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_data_integra:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_internet:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_dom_host:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  utter_happy:
+  - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  - text: "Bye"
 
-  utter_zoom:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_lisensi:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_feed_back:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
-
-  utter_daftar_forlapsivil:
-  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60

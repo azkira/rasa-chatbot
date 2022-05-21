@@ -1,65 +1,30 @@
 version: "2.0"
 
 stories:
-- story: lisensi story
-  steps:
-  - intent: lisensi
-  - action: utter_lisensi
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-  
-- story: daftar forlapsivil story
-  steps:
-  - intent: daftar_forlapsivil
-  - action: utter_daftar_forlapsivil
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
 
-- story: sim story
+- story: happy path
   steps:
-  - intent: sim
-  - action: utter_sim
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
 
-- story: my its integra story
+- story: sad path 1
   steps:
-  - intent: my_its_integra
-  - action: utter_my_its_integra
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
   - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: vpn story
-  steps:
-  - intent: vpn
-  - action: utter_vpn
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: internet story
-  steps:
-  - intent: internet
-  - action: utter_internet
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: zoom story
-  steps:
-  - intent: zoom
-  - action: utter_zoom
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: dom host story
-  steps:
-  - intent: dom_host
-  - action: utter_dom_host
-  - action: utter_did_that_help
-  - checkpoint: ask_feed_back
-
-- story: user provides feed back
-  steps:
-  - checkpoint: ask_feed_back
   - intent: affirm
-  - action: utter_feed_back
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
   - action: utter_goodbye
