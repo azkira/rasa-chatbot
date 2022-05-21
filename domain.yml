@@ -46,6 +46,8 @@ responses:
   - text: "Untuk mengajukan akun zoom berlisensi ITS, silahkan mengajukan melalui servicedesk. Untuk melakukan request meeting zoom, silahkan membuat surat permohonan yang ditujukan ke DPTSI."
   utter_teams:
   - text: "Jika anda mengalami permasalahan untuk mengakses Microsoft Teams, berikut adalah cara untuk mengaksesnya 1. Login ke akun MyITS, 2. Pilih MS Teams, 3. Anda akan di arahkan ke halaman login Microsoft, 4. Setelah login anda akan diarahkan ke halaman login MS Teams. Terima kasih atas pengertiannya."
+  utter_lisensi:
+  - text: "Jika terdapat keluhan mengenai cara instalasi, aktifasi, atau akses ke aplikasi yang membutuhkan lisensi mohon dapat menyampaikan via servicedesk.its.ac.id aplikasi yang menjadi kendala atau ingin diakses lisensinya.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check ketersediaaanya terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
   utter_azure:
   - text: "Jika anda mengalami permasalahan untuk mengakses Microsoft Azure, berikut adalah cara untuk mengaksesnya 1. Login ke akun MyITS, 2. Pilih MS Azure, 3. Anda akan di arahkan ke halaman login Microsoft, 4. Setelah login anda akan diarahkan ke halaman login MS Azure. Terima kasih atas pengertiannya."
   utter_feed_back:
