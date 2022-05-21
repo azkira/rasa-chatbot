@@ -5,29 +5,74 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - thank
+  - lisensi:
+    use_entities:
+      - teams
+      - office
+      - azure
+  - data_integra
+  - daftar_forlapsivil
+  - sim
+  - my_its_integra
+  - vpn
+  - internet
+  - zoom
+  - dom_host
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Selamat datang di Chatbot DPTSI-ITS. Ada yang bisa kami bantu?"
+  - text: "Hi! Saya Chatbot DPTSI-ITS. Ada yang bisa saya bantu?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_my_its_integra:
+  - text: "Jika anda tidak bisa masuk kedalam akun MyITS atau akun Integra anda, tolong lengkapi data-data berikut.\n\nNama :\nDepartemen:\nNRP/NIP/NPP:\nUsername Integra/MyITS:\nEmail Alternatif :\nNomor Telefon:\n\nTolong sertakan juga foto KTM/KTP/SIM anda untuk memverifikasi data anda. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Apakah anda sudah merasa terbantu? Jika tidak tuliskan keperluan lain Anda."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_sim:
+  - text: "Jika anda mengalami permasalahan mengenai SIM anda dapat sampaikan keluhan yang anda alami beserta dengan screenshoot dari SIM yang bermasalah kepada servicedesk.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check mengenai sistem terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
+
+  utter_vpn:
+  - text: "Jika anda mengalami permasalahan dan ingin mengakses VPN ITS anda dapat membuka integra.its.ac.id/app.php, lalu memilih menu one time password. Setelah itu menu akses VPN akan terbuka, anda dapat menambah akses vpn sesuai yang anda inginkan.\n\nJika anda masih mengalami permasalahan untuk mengakses VPN ITS, silahkan sampaikan keluhan anda di servicedesk.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check keluhan yang anda alami terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
+
+  utter_data_integra:
+  - text: "Apabila anda ingin melakukan perubahan pada data Integra anda, tolong lengkapi data-data berikut.\n\nNama :\nDepartemen:\nNRP/NIP/NPP:\nUsername Integra/MyITS:\nEmail Alternatif :\nNomor Telefon:\n\nTolong sertakan juga foto KTM/KTP/SIM anda untuk memverifikasi data anda. Selanjutnya tolong diisikan juga form mengenai data yang ingin dirubah.\n\nData semula :\nDiubah Menjadi:\n\n. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
+
+  utter_internet:
+  - text: "Apabila anda mengalami permasalahan internet pada wifi pada wilayah kampus ITS, tolong isi form ini agar kami mengetahui lokasi dan melakukan proses pemeriksaan lebih lanjut. \n\nNama Pelapor:\nNomor Telefon:\nNama Wifi:\nLokasi Wifi:\n\nKami dan tim akan segera melakukan proses pemeriksaan internet tersebut, jika diperlukan kami akan mengirimkan tim jaringan untuk memeriksa langsung kondisi lapangan. Selanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
+
+  utter_dom_host:
+  - text: "Apabila anda mengalami permasalahan mengenai domain, hosting, dan server atau memiliki permintaan tertentu mengenai domain, hosting, dan server. Anda dapat langsung mengisi aplikasi simdom yang dapat diakses di my.its.ac.id.\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check ataupun penyetujuan terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Terima kasih telah menggunakan chatbot dptsi."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_o_365:
+  - text: "Jika anda mengalami masalah untuk masuk ke email anda atau akun office 365 anda, berikut beberapa cara untuk mengaksesnya. jika anda lupa dengan username dan password email anda, berikut beberapa langkah yang dapat dilakukan:\n1. Masuk ke integra.its.ac.id/app.php\n2. Pilih Mailbox Mahasiswa / Mailbox Staff.\n3. Masukkan username dan password integra\n\nJika anda mengalami permasalahan sinkronisasi office 365, anda dapat menyampaikan kelengkapan data anda pada servicedesk.its.ac.id dengan list data sebagai berikut :\n\nNama :\nDepartemen :\nNRP :\nUsername Integra :\n\nSelanjutnya mohon ditunggu, akan kami lakukan proses check terlebih dahulu bersama tim. Terimakasih atas pengertiannya 😄."
+
+  utter_zoom:
+  - text: "Untuk mengajukan akun zoom berlisensi ITS, silahkan mengajukan melalui servicedesk. Untuk melakukan request meeting zoom, silahkan membuat surat permohonan yang ditujukan ke DPTSI."
+
+  utter_teams:
+  - text: "Jika anda mengalami permasalahan untuk mengakses Microsoft Teams, berikut adalah cara untuk mengaksesnya:\
+          \ 1. Login ke akun MyITS,\
+          \ 2. Pilih MS Teams,\
+          \ 3. Anda akan di arahkan ke halaman login Microsoft,\
+          \ 4. Setelah login anda akan diarahkan ke halaman login MS Teams.\
+          \ Terima kasih atas pengertiannya."
+
+  utter_azure:
+  - text: "\ Jika anda mengalami permasalahan untuk mengakses Microsoft Azure, berikut adalah cara untuk mengaksesnya:\
+          \ 1. Login ke akun MyITS,\
+          \ 2. Pilih MS Azure,\
+          \ 3. Anda akan di arahkan ke halaman login Microsoft,\
+          \ 4. Setelah login anda akan diarahkan ke halaman login MS Azure.\
+          \ Terima kasih atas pengertiannya."
+
+   utter_feed_back:
+  - text: "Kami meminta untuk mengisi form berikut sebagai lembar feedback. https://forms.gle/uUbyrjj2YBTcZRtJ8. Terima Kasih. "
 
 session_config:
   session_expiration_time: 60

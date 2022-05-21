@@ -16,6 +16,27 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hai
+    - halo
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - siang
+    - hallo
+    - bisa bantu saya?
+    - halo, nama saya
+    - bisa minta tolong?
+    - haaai
+    - halo
+    - hai
+    - hei
+    - hallo, selamat malam
+    - hey!
+    - hood day
+    - hallo
+    - hi
+    - halo, DPTSI 🙏🏻
 
 - intent: goodbye
   examples: |
@@ -30,6 +51,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - sampai jumpa
 
 - intent: affirm
   examples: |
@@ -39,6 +61,10 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ya
+    - iya
+    - terbantu
+    - saya sudah merasa terbantu
 
 - intent: deny
   examples: |
@@ -49,44 +75,612 @@ nlu:
     - don't like that
     - no way
     - not really
-
-- intent: mood_great
+    - tidak
+    - tidak, saya tidak mau
+    - tidak mau
+    - tidak setuju
+  
+- intent: thank
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - Terima kasih
+    - Baik
+    - Terima kasih banyak
+    - baik, terima kasih
 
-- intent: mood_unhappy
+- intent: lisensi
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - [azure]{"entity":"azure","value":"azure"}
+    - [microsoft azure]{"entity":"azure","value":"microsoft azure"}
+    - [office]{"entity":"office","value":"office"} tidak appsnya perkenalkan bernadeta elie nama bernadeta elie departemen teknik sipil nrp username integra email mahasiswa integra its apps [office 365]{"entity":"office","value":"office 365"} tidak muncul tunggu selasa dibilang tidak muncul muncul
+    - [microsoft teams]{"entity":"teams","value":"microsoft teams"} send request problem aju keluh [microsoft team]{"entity":"teams","value":"microsoft team"} tama beri integrasi [office]{"entity":"office","value":"office"} office365 hasil buka [microsoft teams]{"entity":"teams","value":"microsoft teams"} versi desktop join grup perkuliahan dosen invite link klik send request ditunggu tidak ubah tampilannya member request kirim dikonfirmasi dosen sangkut dosen tidak terima pending request solusinya besok perkuliahannya perkuliahan dosen prof arif djunaidy mata kuliah manajemen data informasi si
+    - tidak bisa akses [microsoft team]{"entity":"teams","value":"microsoft team"} mohon maaf menggangunya nama woro reswari nrp sign [microsoft team]{"entity":"teams","value":"microsoft team"} muncul you re missing out belum aktifkan [microsoft team]{"entity":"teams","value":"microsoft team"} its aktifkan [microsoft team]{"entity":"teams","value":"microsoft team"} lengkap data nama woro reswari departemen teknik kapal nrp username integra
+    - aktivasi windows [microsoft azure]{"entity":"azure","value":"microsoft azure"} nama aldy setiadi nrp mahasiswa teknik kapal aktif email mahasiswa dapat akses microdoft azure windows lainya
+    - aktivasi visio direktorat pengenmbangan teknologi sitem informasi its ticket minta aktivasi aplikasi visio perlu tugas i made setia ananda
+    - kendala akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} admin dpptsi ditempat edwardo yeremia saragi nrp keluh akses akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} terkendala masukkan akun its akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} akun nrp mahasiswa integra its page [microsoft teams]{"entity":"teams","value":"microsoft teams"} belum enable its saran kian keluh ucapkan
+    - lisensi minitab eror mohon lisesi minitab eror
+    - software [microsoft office]{"entity":"office","value":"microsoft office"} microsoft visio 365 wfh rumah file microsoft excel word power point tidak bisa dibuka microsoft [office 365]{"entity":"office","value":"office 365"} ingat coba unduh microsoft google dibuka filenya tidak bisa diedit masuk kode lisensi mohon akses software [microsoft office]{"entity":"office","value":"microsoft office"} microsoft visio 365 bagan dibutuhkan prosedur dokumen iso
+    - microsoft license aldifta krisna wibawa nrp departemen teknik kapal joint degree keluh kait aktifasi miscrosoft teams dimana aktif 365 coba buka teams kelas kimia report card tulis your license doesnt include access [microsoft teams]{"entity":"teams","value":"microsoft teams"}
+    - request licensi visio mahasiswa its nrp akses microsoft visio 365
+    - [office 365]{"entity":"office","value":"office 365"} this is your [office 365]{"entity":"office","value":"office 365"} home pagedanmdash where you can sih and access all of your [office 365]{"entity":"office","value":"office 365"} apps if si empty could be that your user license was very recently assigned you wait minutes and refresh this page if you still don t sih any apps contact your department they can help you get up and running proses sinkronisasi web office muncul butuh akun login app teams harus email its email its ariq mhs its email microsoft mahasiswa integra its uname integra
+    - aktivasi akun email microsoft azzure mailbox mahasiswa aktivasi akun email microsoft azzure mailbox mahasiswa web login integra nya enggak bisa redirec
+    - request aktivasi visio nama rico pardona pardosi nrp
+    - lupa login akun microsoft login teams lupa password nya
+    - enggak bisa login teams enggak bisa login teams ya pakai email mahasiswa integra its password suai integra sinkronisasi web
+    - tidak dapat akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} admin dptsi fina mufarrih departemen teknik kapal nrp tidak dapat akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} password salah
+    - lisensi [office 365]{"entity":"office","value":"office 365"} tidak dapat akses [office 365]{"entity":"office","value":"office 365"} belum lisensi
+    - [office 365]{"entity":"office","value":"office 365"} user integra belum bisa akses lisensi [office 365]{"entity":"office","value":"office 365"} proses sinkronisasi belum selesai mohon email its qaisazhar mhs its username integra
+    - product key windows warohmatulloh wabarokatuh perkenalkan moh faslil fawaidi mahasiswa teknik fisika its sempat tanya product key mahasiswa its software windows kali pakai product key akses wes integra its app php http integra its app php software windows serta product key nya tidak bisa akses web mohon saran nya
+    - aktivasi windows tidak bisa aktivasi windows
+    - mekanisme akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} coba masuk fitur microsft azure balas request fdbd e ba f correlation afdadc f ab ffdb timestamp t message aadsts the user account vhujvzkesamelqxqhyxg does not exist the dac ccb bfccac directory sign into this application the account must be added the directory mohon terang akses [microsoft azure]{"entity":"azure","value":"microsoft azure"}
+    - aktivasi microsoft 365 mahasiswa its jurus teknik kimia nama fa izul qholbi tamimi nrp mohon izin tidak bisa aktivasi microsoft 365 mohon
+    - keluh aktivasi akun [microsoft teams]{"entity":"teams","value":"microsoft teams"} sinkronisasi [office 365]{"entity":"office","value":"office 365"} tetapi log [microsoft teams]{"entity":"teams","value":"microsoft teams"} tidak dapat log menghubingi admin ada microsoft teamsnya
+    - windows activation athiyya karima nrp tanya aktivasi windows buka laman dptsi muncul notifikasi tidak hak akses halaman coba ikut pandu its tetapi belum bisa mohon
+    - akses [microsoft teams]{"entity":"teams","value":"microsoft teams"} ivandy halim pwk tanya guna [microsoft teams]{"entity":"teams","value":"microsoft teams"} login muncul dibawah bisa aktif
+    - password salah login [microsoft teams]{"entity":"teams","value":"microsoft teams"} admin dptsi winda seviani nrp keluh login [microsoft teams]{"entity":"teams","value":"microsoft teams"} handphone password salah diketikkan suai password integra coba kali tetapi tidak bisa butuh [microsoft teams]{"entity":"teams","value":"microsoft teams"} tunjang langsung praktikum online besok selasa oktober minggu dapat ucapkan
+    - lisensi 365 office tidak dapat akses [office 365]{"entity":"office","value":"office 365"} belum lisensi
+    - tidak bisa akses teams web tidak bisa akses teams login office365 mengklik menu teams kiri menu loading tulis checking your credentials diarahkan hubung organisasi pusatnya its aplikasi bisa mohon solusinya
+    - minta software visio sedia visio
+    - [office]{"entity":"office","value":"office"}
+    - [o365]{"entity":"office","value":"o365"}
+    - [365]{"entity":"office","value":"365"}
+    - [excel]{"entity":"office","value":"excel"}
+    - [word]{"entity":"office","value":"word"}
+    - [powerpoint]{"entity":"office","value":"powerpoint"}
+    - [microsoft excel]{"entity":"office","value":"microsoft excel"}
+    - [microsoft word]{"entity":"office","value":"microsoft word"}
+    - [microsoft powerpoint]{"entity":"office","value":"microsoft powerpoint"}
+    - cara mengakses [office 365]{"entity":"office","value":"office 365"} mahasiswa baru
+    - sinkronisasi o365 email its mahasiswa its username integra status kemarin sikronisasi password email its tidak bisa dimasukkan password integra
+    - masalah penginstallan [office 365]{"entity":"office","value":"office 365"} download [office 365]{"entity":"office","value":"office 365"} website its install aplikasi laptop tetapi run jam belum selesai foto lampir windows memori sisa gb ram gb username integra email yuvita mhs its
+    - lapor sinkronisasi [office 365]{"entity":"office","value":"office 365"} lptsi its perkenalkan nama munadhia mahasiswi si departemen teknik lingkung nrp tulis email tuju lapor sulit masuk portal [office 365]{"entity":"office","value":"office 365"} niat unduh [office 365]{"entity":"office","value":"office 365"} laptop coba masuk portal [office 365]{"entity":"office","value":"office 365"} kamis tanggal agustus tunggu proses sinkronisasi jam tetapi tidak hasil coba jumat sabtu tetapi belum hasil mohon lptsi dapat kait sulit wassalamu
+    - email its subdit dptsi its vina rizky andina nrp sehubungan layak naskah tugas online mohon reset ulangkan password email its lupa password email its vina mhs chem its
+    - [office 365]{"entity":"office","value":"office 365"} tidak bisa download klaim lisensi [office 365]{"entity":"office","value":"office 365"} integra apps tidak bisa didownload office 365nya dapat browser mohon solusinya email its nandaffa mhs its gmail mahasiswa integra its microsoft username integra
+    - tidak bisa masuk e mail akun dinonaktifkan its diganti masuk email tidak bisa terang user name array status error o365_id efbed wonedjcyjqcmb ima msg belum mailbox assign mohon ditindaklanjuti bisa masuk email its asrama its
+    - lupa password user email its benar nama sitti afifah karimah barata benar nama daftar lupa pas user email its
+    - tambah quota email service desk sehubungan ada barang jasa its tambah quoto email dapat kerjasamanya salam
+    - dptsi lupa password email its al mhs its
+    - akun email its nadhifah astari putri departemen biologi nrp tanya perihal akun email its email its lupa username passwordnya bisa kait tidak masalah layan web its daftar email gmail pribadi layan liput integra service desk zoom
+    - gagal sinkronisasi [office 365]{"entity":"office","value":"office 365"} kepala dptsi mohon mahasiswa angkat keluh proses sinkronisasi tidak hasil beliau coba proses sinkronisasi semester muncul tulis proses sinkronisasi butuh menit user integra beliau nama nila muhaimatul adhimah
+    - sulit akses azure [office 365]{"entity":"office","value":"office 365"} muhammad irsyad aziz departemen tek mesin industri nrp alam sulit akses [microsoft azure]{"entity":"azure","value":"microsoft azure"} masuk user and pas notifnya incorrect user orang password type the correct user and password and try again [office 365]{"entity":"office","value":"office 365"} tunggu menit belum ubah
+    - kendala proses sinkronisasi office365 its _ mayra andrakayana andrakayana gmail com okt jam https mail google com mail lu images cleardot gif https mail google com mail lu images cleardot gif dptsi https mail google com mail lu images cleardot gif dptsi mayra andrakayana nrp mahasiswi departemen rencana wilayah kota ftspk its niat unduh [office 365]{"entity":"office","value":"office 365"} offline ikut langkah langkah tera https www its dptsi [office 365]{"entity":"office","value":"office 365"} students terkendala proses sinkronisasi menit tidak kunjung selesai kemarin solusi bisa lakukan
+    - akun [office 365]{"entity":"office","value":"office 365"} alaykum warahmatullahi wabarakatuh admin dptsi its ika puspita mahasiswa si teknik fisika tidak dapat akses teams akun [office 365]{"entity":"office","value":"office 365"} akun belum licence mohon dapat kait informasi email its integra email its mahasiswa integra its username integra
+    - mengaktivasi [office 365]{"entity":"office","value":"office 365"} buka https its o365 run php tulis proses sinkronisasi proses sinkronisasi cek menit
+    - reset password email mohon dapatnya reset password email its umairi its
+    - login [MS azure]{"entity":"azure","value":"MS azure"}
+    - cara mendapatkan [azure]{"entity":"azure","value":"azure"} lisensi ITS
+    - menggunakan [azure]{"entity":"azure","value":"azure"} ITS
+    - ITS [MS azure]{"entity":"azure","value":"MS azure"}
+    - [microsoft azure]{"entity":"azure","value":"microsoft azure"}
+    - [azure]{"entity":"azure","value":"azure"} hosting its
+    - [azure]{"entity":"azure","value":"azure"} gratis its
+    - akun [azure]{"entity":"azure","value":"azure"} dari its
+    - cara daftar [azure]{"entity":"azure","value":"azure"} dari its
+    - login [azure]{"entity":"azure","value":"azure"} dengan email its
+    - bagaimana cara mendapatkan layanan [azure]{"entity":"azure","value":"azure"} ITS
+    - saya ingin bertanya bagaimana untuk dapat mengajukan akun [azure]{"entity":"azure","value":"azure"}
+    - saya ingin mengajukan akun [azure]{"entity":"azure","value":"azure"} lisensi ITS
+    - apakah mahasiswa mendapatkan akun [azure]{"entity":"azure","value":"azure"} dari ITS
+    - login [MS teams]{"entity":"teams","value":"MS teams"}
+    - cara mendapatkan [teams]{"entity":"teams","value":"teams"} lisensi ITS
+    - menggunakan [teams]{"entity":"teams","value":"teams"} ITS
+    - ITS MS [teams]{"entity":"teams","value":"teams"}
+    - [microsoft teams]{"entity":"teams","value":"microsoft teams"}
+    - [teams]{"entity":"teams","value":"teams"} hosting its
+    - [teams]{"entity":"teams","value":"teams"} gratis its
+    - akun [teams]{"entity":"teams","value":"teams"} dari its
+    - cara daftar [teams]{"entity":"teams","value":"teams"} dari its
+    - login [teams]{"entity":"teams","value":"teams"} dengan email its
 
-- intent: bot_challenge
+- intent: data_integra
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - tidak bisa verif nomor handphone siakad caleb effendi mahasiswa nrp lapor tidak bisa verifikasi nomor handphone memverifikasi biodata siakad tidak bisa dosen wali frs nomor telepon
+    - lahir salah nama dinda khusnul khotimah nrp departemen statistika bisnis lahir integra salah tulis jakarta barat juni suai ijazah jakarta juni mohon ubah salah lahir perhati ucapkan
+    - baik data baik data https www its informatika dosen staff daftar dosen dosenanggotakcv email supeno its didik si danndash university of wisconsin madison united states foto
+    - verifikasi nomor hp admin keluh belum bisa memverifikasi nomor hp tanggal agustus coba saran tetapi kode verifikasi tidak kunjung masuk nomor lakukan kartu tri
+    - integra mahasiswa zulieta krisna damayanti mahasiswa teknik kapal verifikasi integra its tidak terima sms kode verifikasi nomor hp email terverifikasi tetapi nomor hp orang tua belum coba ganti nomor hp kali tidak bisa mohon
+    - tidak bisa verifikasi tidak nomor verifikasi nomor hp sabrina atikah rahma departemen desain interior nrp perihal verifikasi nomor hp akademik integra tidak bisa memverifikasi nomor hp smartfren angkat hp laptop
+    - ubah nama digit kode verifikasi tidak kirim no hp direktorat kembang teknologi sistem informasi wallen jusri sihotang pasca sarjana teknik sipil bidang manajemen rekayasa bendung kelas kerjasama its pt waskita karya persero tbk merubah nama integra its digit kode verifikasi tidak kirim nomor hp wallen jusri si wallen jusri sihotang
+    - email its terhubung handphone haris miftakhul fajar dosen t geofiska its mohon informasi email its mharismf geofisika its dapat terhubung handphone os handphone android note mohon maaf tuju unit kategori tiketnya salah
+    - verifikasi biodata integra mohon ganti nomor handphone verifikasi biodata orangtua nomor verifikasi biodata nomor nomor butuh nomor data data wisuda coba ganti tetapi tidak hasil muncul ingat lampir nomor wali perbarui nomor mohon hapus histori nomor verifikasi bisa masuk
+    - nama dosen wali beda jeremy michael departemen teknik informatika nrp tanya nama dosen wali aplikasi myits website integra beda
+    - mengenail email utama myits mohon maaf hani setyaning rahayu departemen matematika nrp tanya email utama myits email utama myits bisa diubah alam kendala tidak bisa verifikasi email utama disebabkan salah tulis dibelakang nama mhs its tulis its mohon
+    - tidak terima sms verifikasi no hp nama surya zandra anggoro nrp departemen teknologi informasi no hp keluh tidak sms kode verifikasi memverifikasi nomer hp integra upload biodata mahasiswa
+    - klarifikasi tidak lengkapnya nama mahasiswa sistem its mahasiswa pascasarjana steknik sipil its manajemen rekayasa bendung program kerja its waskita karya identitas nama eka anjang pradana dirgantara nrp klarifikasi nama cantum biodata akademik sistem its tidak lengkap lampir sertakan scan ktp ijazah baik eka anjang pradana dirgantara
+    - tidak dapat verifikasi sms isi nomor dengen nomor aktif telfon sms tidak sms verifikasi isi biodata nomor hp
+    - ganti tanggal lahir nama muhammad rizki agustiyan nrp jurus departemen teknik infrastruktur sipil ganti tanggal lahir integra januari diganti agustus
+    - masalah verifikasi nomor hp website integra siakad admin dptsi erki kadhafi rosyid verifikasi nomor hp web integra siakad tidak bisa verifikasi nomor hp tidak sms kode verifikasi masuk hp kali daftar akun integra mohon
+    - ganti nomer telfon install windows education its cuman masuk akun butuh verifikasi nomer telfon nomer telfon ubah pohon ganti nomor telfon nomer telfon bisa ubah organisasi its nama sudrajad hadi saputra email mahasiswa integra its password passwordnyagaktau nomer telfon ubah no telfon
+    - ubah nomer hp akun sipmaba mohon maaf ganggu aulia dwi wulandari mahasiswa its departemen teknik mesin mengajukam ubah nomer hp akun sipmaba nomer hp terdata akun sipmaba tidak aktif
+    - data belum verifikasi belum muncul menu frs integra dptsi nama rosnia robi nrp mmt jurus manajemen proyek belum muncul frs tidak bisa verifikasi no telp integra mohon isi frs perhati nb no hp rgrds rosnia robi
+    - verifikasi nomor hp biodata integra toifatul ulma mahasiswa fast track pasca sarjana teknik geomatika its ijin tanya daftar ulang kemarin tidak bisa isi nomor hp nomor hp isi biodata integra si dapat nomor hp akun integra nomor hp kuota paket data kemendikbud
+    - primary email sso myits serafim daserra departemen statistika bisnis fakultas vokasi nrp tanya salah memasukan alamat email primary email sso myits ganti tetapi tidak opsi ganti alamat email bisa minta mereset primary email sso myits butuh urgent bisa akses halaman booking webinar
+    - ubah biodata akun integra mahasiswa kait nomor ijazah nasional forlap dikti pemutakhiran biodata mahasiswa dibawah alam kendala tidak menu ubah data tanggal lahir ubah biodata mahasiswa a n arseto yekti bagastyo nrp data diubah tanggal lahir beliau
+    - email salah https my its sso account primary email demasyangindrajat its data salah demasyangindrajat mhs its ganti demas ya
+    - verifikasi update biodata integra tidak bisa verifikasi update biodata integra tidak bisa kode suai dikirimkan afan hamzah departemen teknik kimia its
+    - minta ganti nomor telepon biodata maaf izin tanya nomor telepon _ update _ biodata integra diganti aplikasi myits belum ter _ update _ ya kait kuota internet kemendikbud perlukan kuliah paket internet masuk nomor teman teman tidak harap bisa diatasi responnya
+    - ubah biodata tanggal lahir christine nathania renh departemen aktuaria nrp aju ubah biodata tanggal lahir terdata layan integra tanggal lahir suai akta lahir ijazah november salah input akun ltmpt dimana daftar sbmptn data tanggal lahir tera oktober ucapkan
+    - aktif ulang akun integra update data mahasiswa orang tua wali integra update email email email nrp guna email email its sehinnga kira nonaktifkan mohon aktifkan ulang akun integra bisa login web integra update email email andrewe smpsantamariasda sch
+    - integra bermasalah isi biodata orang tua integra tulis nomer hp nomer hp nya ganti isi enggak bisa diganti enggak bisa verivikasi
+    - ganti data biodata tanggal lahir mahasiswa hubung layan sim akademik integra data biodata mahasiswa error ganti data tanggal lahir integra salah data nama ragil abdillah fahim nrp prodi teknologi rekayasa kelola pelihara bangun sipil departemen teknik infrastruktur sipil fakultas fakultas vokasi lahir lamongan tanggal lahir mei
+    - ganti email utama myits assalamualaikan mohon arah ganti email utama myits salah memasukan email ganti email tidak bisa mohon arah harap tanggap
+    - isi biodata siakad milik akun my its tetapi memverifikasi biodata siakad tetapi masalah memverifikasi no hp dimasukkan kode verifikasinya error
+    - verifikasi no hp biodata integra username integra verifikasi no hp biodata integra kerjakan klik verifikasi kali no hp biodata integra tidak sms satupun masuk no hp biodata integra tidak support provider bantu
+    - tidak sms kode verif nama surya zandra anggoro nrp departemen teknologi informasi no hp keluh tidak sms kode verif its verif no hp integra biodata mahasiswa
+    - tidak bisa kirim sms verifikasi integra studi negeri mahasiswa its studi negeri akses integra integra verifikasi tidak buka hasil verifikasi email data orang tua verifikasi nomor hp tidak kunjung masuk nomor hp negeri kode negara nomor hp coba nomor hp lokal negara taiwan tidak bisa mohon
+    - kendala nomor handphone nama kadek mahardhika dwi arsana nrp departemen teknik kapal keluh masalah nomor handphone web integra verifikasi nomor kode verifikasi dikirimkan tetapi masuk kode tulis error masuk kode bisa
+    - tidak sms kode verifikasi integra mohon maaf tanya update biodata integra verifikasi nomer handphone mahasiswa tidak langsung sms tidak kunjung sms isi kode maksimal tunggu verifikasi ditunggu dicoba berkali nomer hp tidak kode verifikasi masuk verifikasi nomer orangtua tidak masalah teman tidak milik masalah mohon maaf desak besok isi frs mohon maaf kirim balas bskah email pribadi snyaptr gmail com email its lupa password tidak dapat akses mohon
+    - nama integra beda akte nama integra nama akte beda ganti takut dampak ijazah nama integra nafisah aliyah a nama akte nafisah aliyah az zahra
+    - ubah data mahasiswa admin dptsi salah data nama mahasiswa nama tera muhamad naufal rafif restiantoro muhammad naufal rafif restiantono mohon baik salah data nama nama muhammad naufal rafif restiantono nrp
+    - data aplikasi my its tidak bisa dirubah admin dptsi maaf ganggu eriyana lusi nofiannti teknik kimia tanya data aplikasi my its tidak ubah sipmaba update data integra diverifikasi
+    - tidak bisa verifikasi no telp nama tri wahyu diana departemen arsitektur nrp username integra problem tidak bisa akses sih akademik belum verifikasi no telp coba verifikasi its tidak kirim kode verifikasi sms no daftarkan kode verifikasi its kirim no hp daftrakan verifikasi
+    - nama sistem ahmad basshofi habieb nup memilika masalah data nama tulis salah ahmad bassofi habieb h mohon ditindak lanjuti
+    - nomor mahasiswa orang tua belum diverifikasi nama dewi maulidiyah nrp departemen rencana wilayah kota no hp keluh nomor hp mahasiswa orang tua belum diverifikasi
+    - ganti biodata sim pegawai dptsi kait surat perihal update nomer ponsel sim pegawai update no ponsel tekan button simpan data ingat error tidak hak data gawai mohon solusinya
+    - ganti email telepon biodata integra username integra minta biodata integra ganti email feliciaharsonoseputro mhs its minta biodata integra ganti dengaan no hp minta
+    - kode verifikasi integra nomor hp belum dikirimkan perkenalkan murti marinah nrp departemen teknik fisika mohon izin perihal verifikasi nomor hp integra kode verifikasi belum dikirmkan muncul invalid user lampir scrrenshot nggih mohon wassalamu
+    - verifikasi nomor handphone gagal update nomor handphone rangka update biodata isi ipd temu error gambar tidak bisa verifikasi nomor handphone mohon
+    - ubah nama mahasiswa typo tidak kirim otp direktorat kembang teknologi sistem informasi its a n wallen jusri sihotang nrp mahasiswa pasca sarjana teknik sipil bidang manajemen rekayasa bendung pohon revisi nama memverifikasi data bisa akses https akademik its https akademik its data_update_biodata php
+    - tidak terima kode verifikasi update biodata siakad update biodata siakad tidak sms kode verifikasi its provider three tidak dapat verifikasi biodata siakad zhivora mhs its
+    - data belum lakukan verifkasi belum muncul menu frs integra nama dadin nrp mmt juruan managemnt industri belum muncul menu frs karenakn belum verifikasi biodata integra its kebatulan esok terkhr frsan mohon nb no hp
+    - gagal masuk nrp integra isi indeks ajar dosen ipd lengkap biodata mahasiswa tetapi isi nrp muncul tulis format nik salah diisi
+    - verif biodata gagal salam service desk its perkenalkan nama ledy fitra ramadhani nrp jurus arsitektur aduk verifikasi biodata laman integra terus ditolak gagal kode masukkan tidak bisa akses data akademik integra mohon kecek masalah akun ucapkan
+    - nomor telepon belum bisa terverifikasi nomor telepon nomor telepon orang tua belum bisa terverifikasi
+    - ketidaklengkapan biodata integra sim akademik salam sejahtera muhammad suyuthi akhsani kamil nrp sim akademik biodata integra belum lengkap datanya lengkap ganti data ganti websitenya tidak temu menu ubah perhati
+    - salah biodata mahasiswa biodata mahasiswa integra keliru sebab skpi keliru data keliru lahir rt rw dusun tanjung kediri mohon dapat diperbarui
+    - ubah nomer hp akun sipmaba aulia dwi wulandari departemen teknik mesin ubah nomer hp akun sipmaba nomer hp terdata akun sipmaba tidak aktif
+    - verifikasi biodata tidak otp indosat aqil rabbani nurhadi teknik elektro maaf hubung update data integra disuruh sekre teknik elektro mengupdate nomor telepon valid sungguhan mengupdate nomor tidak kunjung dapat otp memverifikasinya ya solusinya sekre oper bapkm disuruh service desk dptsi
+    - data orang tua integra dptsi tanya keluh data orang tua laman integra isi data orang tua dicek datanya tidak tik nomer nik orang tua terllihat datanya tetapi salah tanggal lahir tidk bisa diedit diverifikasi tim dptsi
+    - biodata integra error nama wahyuningsih indah khasanah nrp akses biodata integra error
+    - izin pohon ganti data pribadi mahasiswa menjadj mahasiswa its ikut terima mahasiswa jalur pkm nomor telefon email pribadi tertaut akun integra tidak dapat guna mesti akun inetgra wassalamualaikum data mahasiswa intro brilliant muhammad data mahasiswa intro brilliant muhammad
+    - baik tanggal lahir integra mohon baik tanggal lahir integra tanggal lahir kediri februari perhati
+    - email myits nama nugraha akbar nurhakim nrp nrp ganti ganti pilih email mailbox mahasiswa isi email utama my its ganti email utama email ganti mailbox
+    - tidak kode verifikasi nomor hp tidak kode verifikasi nomor hp nomor hp
+    - ubah biodata tanggal lahir muncul entry kuesioner tidak suai nama tri susanto tanggal lahir blitar mei nrp
+
+- intent: daftar_forlapsivil
+  examples: |
+    - no ijazah tidak daftar sivil barusan kecek berkali kali no ijazah sivil website https ijazah ristekdikti go website tulis data tidak ditemukan pastikan isi nama pt prodi coba kali data tidak ditemukan data masukkan kabar data no iazah belum diupdate its mohon selesai masalah perlu verifikasi dokumen cpns
+    - nomor ijazah tidak daftar forlap dikti gawai direktorat kembang teknologi sistem informasi its surabaya siti mushlihah alumnus mahasiswi sdans teknik lingkung its lulus si si sehubungan seleksi terima cpns ikuti cek nomor ijazah sdans belum daftar forlap dikti mohon ijazah dapat daftar butuhkan tidak alam masalah proses seleksi administrasi cpns ikuti daftar tanggal oktober ijazah lampirkan harap tindak lanjut permohanan perhati aksih siti mushlihah
+    - daftar ijazah sivil dikti dpsti danang cahyagi alumni si teknologi laut konsentrasi teknik sistem kendali laut nrp ijazah belum daftar www ijazah ristekdikti go mohon daftar ijazah lampirkan danang cahyagi
+    - data no ijazah its tidak daftar dikti data nomor ijazah tidak cantum halaman forlap ristekdikti https forlap ristekdikti go tidak dapat ditemukan sistem verifikasi ijazah elektronik https ijazah kemdikbud go bisa minta data ijazah database dikti
+    - ijazah tidak terverifikasi sivil perkenalkan nadya anugerah rahman ananda nrp lapor ijazah tidak terverifikasi situs sivil mohon tangan masalah daftar kerja butuh verifikasi absah ijazah kemenristekdikti diakses sivil teimakasih
+    - nomor ijazah tidak daftar ristekdikti ijazah lampir belum daftar laman https ijazah ristekdikti go data mahasiswa belum muncul forlap ristekdikti forlap ristekdikti go nama resky irfanita jurus fisika nrp data dukung lampir scan ijazah transkrip nilai mohon konfirmasinya daftar gawai negeri sipil perhati ucapkan
+    - ijazah tidak deteksi web dikti ijazah ristekdikti go dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul nama aldy gusta narindra departemen teknik mesin wisuda no ijazah its fti si nama ayah adwin abdurachman nama rikka ekawati mohon ditindak lanjuti aldy gusta narindra
+    - data mahasiswa admin data mahasiswa nama mukhammad fatkhur rozi nrp nama kandung titik asmani nama bpak kandung syafi i arif mengjukan minta data mahasiswa bisa input forlap dikit lampirkan scan ijazah scan transkrip nilai perhati ucapkan
+    - input sivil halo servicedesk its alumni si fisika its data ijazah tidak terverivikasi sivil https ijazah ristekdikti go mohon ya penting sifat urgent senin oktober daftar online seleksi cpns kemenristekdikti data masuk diverivikasi harap service its nama kandung eryani nama ayah kandung saleh erti
+    - perihal ijazah tidak bisa diverifikasi sivil sistem verifikasi ijazah elektronik https ijazah kemdikbud go dptsi perkenalkan nama agung rasmalem surbakti alumni its jurus teknik informatika lulus nrp verifikasi ijazah aplikasi sivil https ijazah kemdikbud go data tidak ditemukan mohon dptsi data dilaporkan dikti verifikasi dibutuhkan proses berkas cpns pemprov jatim verifikasi aplikasi sivil datanya dapat ditemukan no ijazah its ftif si lampirkan scan ijazah serta screenshot verifikasi ijazah aplikasi sivil hasil verifikasi ijazah aplikasi sivil agung rasmalem surbakti
+    - no ijasah mahasiswa tidak daftar dptsi ditempat sehubungan surat pohon batu mahasiswa daftar no ijasah tidak daftar kemenristek dikti nama anita catur trisnayanti ferizandi qauzar gani surat permohanan mohon kerjasama batuain nya
+    - nomor ijazah tidak daftar kemeristekdikti mucharromatul aula alumni its wisuda lamar cpns nomor ijazah belum daftar web kemenristekdikti kait bakpm disarankan lapor via servicedesk its lampir scan transkrip nilai ijazah pohon bpak daftar nomor ijazah terang nomor ijazah its fbmt si nama mucharromatul aula nama ayah moch soleh nama asiatul qudsiah email lampir scan ijazah transkrip ktp ucapkan best regards mucharromatul aula
+    - ijazah tidak terverifikasi sivil ijazah tidak terverifikasi ijazah ristekdikti go dasar no ijazah
+    - upload ijazah kemenristekdikti pimpin its kampus its sukolilo surabaya laksana proses berkas rangka syarat lulus cpns mohon mengupload ijazah transkrip kemenristekdikti batas sempit mohon minta dapat proses mohon maaf salam almuni dept statistika its deni dwi wijayanto
+    - upload ijazah kemenristekdikti pimpin its kampus its sukolilo surabaya laksana proses berkas rangka syarat lulus cpns mohon mengupload ijazah transkrip kemenristekdikti batas sempit mohon minta dapat proses mohon maaf salam almuni dept statistika its samsul arifin
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek legalitas ijazah ijazah ristekdikti go dimana nomor ijazah tidak valid data profil nama rifqi wachid setiawan departemen si teknik mesin fti its periode wisuda no ijazah its fti si nama ayah sucipto hadi nama diah prihatmini mohon ditindaklanjuti hubung daftar kerja
+    - no ijazah tidak daftar website dikti no ijazah tidak daftar website ijazah ristekdikti go registrasi cpns keterangann forlap statusnya mahasiswa aktif
+    - nomor ijazah tidak ditemukan sivil kemenristekdikti nova candraningtiyas alumni matematika its masuk nomor ijazah laman sivil kemenristekdikti ijazah kemdikbud go muncul pesan nomor ijazah tidak ditemukan nomor ijazah its xciii mp si ekstensi nim mohon tunjuk solusi masalah
+    - layan data forlap dikti nomor ijazah belum daftar sivil ristekdikti nama herman jufri andi its fmipa si nrm si fisika lulus tanggal agustus mohon tindaklanjutnya
+    - ijazah tidak terverifikasi sivil nomor ijazah tidak terverifikasi web sivil muncul tulis data ridak ditemukan pastikan isi nama pt program studi teman teman statistika its lulus alam mohon kait daftar cpns butuh verifikasi absah ijazah kemenristekdikti
+    - nama tidak daftar forlap dikti mohon dibuatkan surat terang dimasukkan daftar forlap dikti nama riza puspitaningrum alumni teknik instrumentasi ayah pardi sukesti bidandari no ijazah its lxv ti no transkrip pp no ktp lampir copy ktp ijazah transkrip
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul nama aldy gusta narindra departemen teknik mesin wisuda no ijazah its fti si nama ayah adwin abdurachman nama rikka ekawati mohon ditindak lanjuti aldy gusta narindra
+    - ijazah belum daftar sivil dikti data ijazah belum daftar sivil dikti mohon tindak perhati wassalamualaikum
+    - no ijazah tidak daftar ristekdikti its no ijazah its fmipa si no ijazah tidak daftar ristekdikti mohon dapat daftar nomor ijazah daftar cpns regards laily hanifa
+    - ijazah tidak cantum website dikti mohon maaf eko alan kusumayadi alumni magister matematika its lapor ijazah tidak cantum site dikti mohon ditindaklanjuti perhati wassalamualaikumsalam
+    - data mahasiswa forlap dikti kait data mahasiswa forlap dikti data mahasiswa nama vebby arga pradana lintas jalur si teknik fisika belum kunjung forlap dikti prosesnya ya mohon follow up dikti nama dapat cantum
+    - pdpt for lab dikti lulus elekto its lulus data tidak sedia dikti perlu legalisir dikti legalisir dikti register embassy mexico perlu usaha ericsson mexico bantuanya ucapkan wassalam agus subijantoro
+    - ijazah tidak terdata pangkal data dikti mohon data belum forlap ristekdikti go ijazah ristekdikti go
+    - nomor ijazah tidak deteksi forlap dikti dptsi alam kendala periksa nomor ijazah sistem verifikasi ijazah online sivil alamat website https ijazah ristekdikti go tulis nomor ijazah tidak valid muncul nama lina ainun nafi ah departemen teknik mesin wisuda no ijazah its fti si nama ayah zaina arifin nama purwaningsih lapor lampirkan scan ijazah transkrip ktp mohon ditindak lanjuti best regards lina ainun nafi ah
+    - ijazah tidak terverifikasi sivil nomor ijazah tidak terverifikasi web sivil muncul tulis data tidak ditemukan pastikan isi nama pt prodi isi mohon nya ya kait daftar cpns butuh absah ijazah kemenristekdikti diakses web sivil ijazah ristekdikti go
+    - ijazah tidak terverifikasi sivil nomor ijazah tidak diterverifikasi web civil muncul tulis data tidak ditemukan pastikan isi nama pt program studi isi teman teman its alam mohon kait daftar cpns verifikasi absah ijazah kemenristekdikti diakses web sivil https ijazah ristekdikti go nomor ijazah its ftslk si lampirkan screenshot web https ijazah ristekdikti go scan ijazah
+    - ijazah tidak daftar sivil ijazah nama maulana hutama rahma putra jurus teknik geofisika fakultas teknik sipil lingkung kebumian
+    - aktivasi ijasah dikti surat surabaya oktober aktivasi ijazah forlap dikti direktorat kembang teknologi sistem informasi institut teknologi puluh nopember sehubungan dibukanya proses rekrutmen cpns tanda tangan dibawah nama retno maharani putri fakultas fakultas vokasi departemen angkat teknik infrastruktur sipil lulus aju aju aktivasi ijazah forlap dikti dijadikan syarat lamar cpns surat ucapkan retno maharani putri
+    - mohon nama alumni despro muncul pddikti mohon nama alumni departemen desain produk muncul pddikti nama adityo pranowo nrp alumni urus nidn dimana urus nidn verifikasi ybs alumni pddikti diverifikasi nama belum muncul urus nidnnya hambat dyah ayu p
+    - urus ijazah sivil dikti its eli alumni mahasiswa fisika its mohon urus ijazah sivil dikti
+    - ijazah tidak deteksi forlap dikti nama kandung hikmatul munawaroh nama kandung suhardi
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah ijazah ristekdikti go website tulis data tidak ditemukan mohon ditindak lanjuti data ijazah website ijazah ristekdikti go nama nama intan putri buana priastiti departemen teknik mesin wisuda no ijazah its fti si nama ayah supriyanto nama almarhumah adi titi handayani mohon ditindaklanjuti perlu pemdaftaran cpns
+    - ijjazah tidak terverifikasi sivil nomor ijazah tidak dapat diverifikasi web sivil daftar cpns mohon nrp
+    - ijazah diforlap dikti moga admin sehat sehat amin tulis ijazah tidak daftar forlap dikti mohon kesedian
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala periksa nomor ijazah sistem verifikasi ijazah online sivil alamat website https ijazah ristekdikti go https ijazah ristekdikti go tulis nomor ijazah tidak valid tidak muncul nama teditya nico aji sukma lutiawan departemen teknik mesin wisuda no ijazah its fti si nama ayah eddy sutrisno nama suhermin lapor lampirkan scan ijazah transkrip ktp mohon ditindak lanjuti best regards teditya nico aji sukma lutiawan
+    - data ijazah an rahmi agustina tidak ditemukan sivil kemdikbud dptsi its mohon info rahmi agustina alumni teknik lingkung its angkat nim lulus september no ijazah its ftsp si data identitas tidak ditemukan sivil kemdikbud lampirkan ijazah transkrip ktp dasar dapat update data sivil kemdikbud perlu berkas cpns regards rahmi a
+    - ijazah tidak daftar nazihah ekasari mahasiswa lulus jurus si tatistika alam kendala kecek nomor ijazah web ijazah ristekdikti go http ijazah ristek go tulis no ijazah tidak valid muncul ayah kandung ego orbandijono kandung tetra budi rachmika mohon tindak lanjuti ucapkan perhati wassalamualaikum
+    - ijazah tidak terverifikasi sivil ijazah tidak terverifikasi ijazah ristekdikti go dasar no ijazah its ftslk si nama almas nandityo rahadyan departemen teknik geomatika its
+    - no ijazah tidak ditemukan mohon lia alumni its jurus sistem informasi cek no ijazah sivil kemenristek dikti data tidak ditemukan kerjasamanya ucapkan
+    - ijazah dikti alumni its nama dimas setiyono jurus kimia fmipa nrp ikut tes cpns cek data absah ijazah web https ijazah ristekdikti go data tidak muncul tetapi data muncul https forlap ristekdikti go status lulus mohon update data absah ijazah lampirkan scan ijazah transkip perhati
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul data tidak dapat ditemukan nama elman joko trianto departemen si teknik mesin wisuda no ijazah its fti si nama ayah subiyanto nama rubini mohon ditindak lanjuti
+    - ijazah tidak daftar dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis no ijazah tidak valid muncul nama sarfan alfaresi departemen teknik mesin wisuda no ijazah its fti si nama ayah syarif nama maisarah mohon ditindak lanjuti
+    - minta update data sivil ristekdikti admin service desk its mohon proses masuk ijazah sivil ristekdikti terverifikasi lampirkan ijazah transkrip jurus teknik mesin si nrp nama rahayu mekar bisono
+    - ijazah tidak daftar sivil ijazah nama riza kamelia nrp jurus teknik elektro fakultas teknologi elektro
+    - data forlap sivil tidak ditemukan perkenalkan fajri dzulfiqar rosmana sebulan aju nomor tiket progres kait lapor cpns berkas digital validasi ijazah kecek data forlap dikti takut tidak munculnya data pddikti hambat tetap nip cpns harap dapat diproses cepat perhati wassalamualaikim
+    - aktivasi ijazah dikti surat surabaya oktober aktivasi ijazah forlap dikti direktorat kembang teknologi sistem informasi institut teknologi puluh nopember sehubungan dibukanya proses rekrutmen cpns tanda tangan dibawah nama yosi arta saragi fakultas fakultas vokasi departemen angkat teknik infrastruktur sipil lulus aju aju aktivasi ijazah forlap dikti dijadikan syarat lamar cpns surat ucapkan yosi arta saragi
+    - status ijazah si dikti tidak cantum mohon maaf vylda pavela alumni magister matematika its lapor ijazah tidak cantum site dikti mohon ditindaklanjuti perhati wassalamualaikumsalam
+    - no ijazah tidak daftar nama yoseph iskandar setyagraha jurus teknik sipil nim terang no ijazah tidak daftar forlap dikti
+    - verifikasi ijazah forlap dikti maaf ganggu tanya cek ijazah online ristekdikti kecek ijazah si ristekdikti online hasilnya data tidak ditemukan atas masalah
+    - ijasah si a n udi kustriawanto udi kustriawanto alumni si elektro dosen universitas langlangbuana bandung proses aju nidn dikti proses aju nidn masalah ijasah si pesan dikti ijasah si nama udi kustriawanto harap dikonfirmasikan guru si nya bisa dilaporkan pdpt guru tingginya dapat deteksi forlap kemenristekdikti mohon bisa ijasah lampir bisa deteksi forlap kemenristekdikti kian salam udi kustriawanto
+    - ijazah tidak daftar sivil dikti kecek ijazah sivil dikti ijazah belum daftar lakukan lampirkan scan ijazah
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek absah ijazah ijazah ristekdikti go tulis no ijazah tidak ditemukan nama andhika muttaqien priyambodo nrp departemen teknik mesin wisuda no ijazah its fti si lintas jalur nama ayah budiyanto nama endang widiastuti cantumkan file file ijazah transkrip ktp dukung lapor
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah ijazah ristekdikti go tulis nomor ijazah tidak valid nama syaldiles putri indahdinata departemen teknik mesin wisuda no ijazah its fti si nama ayah sunoto nama endah supriatin mohon ditindak lanjuti
+    - ijazah tidak deteksi forlap dikti hormat direktorat kembang teknologi sistem informasi alam kendala kecek ijazah ijazah ristekdikti go tulis nomor ijazah tidak valid tidak muncul data nama lina ainun nafi ah departemen teknik mesin no ijazah its fti si nama ayah zainal arifin nama purwaningsih mohon ditindaklanjuti
+    - ijazah tidak daftar sivil ijazah nama diajeng anjarsari rahmadani nim jurus teknik industri fakultas teknologi industri
+    - ijazah tidak daftar sivil ijazah nama ainul mahbubillah nim jurus si biologi fakultas matematika ilmu tahu alam
+    - ijazah tidak daftar ristekdikti mohon ijazah si fisika fmipa its tidak daftar ijazah ristekdikti go nomor ijazah its fmipa si a n ayu jati puspitasari nrp lulus butuhkan daftar cpns
+    - no ijazah tidak daftar dikti maaf reza augusta alumni program pascasarjana its lulus prodi matematika fmipa its lapor no ijazah belum daftar dikti perlu daftar cpns mohon diproses wassalamualaikum
+    - ijazah tidak daftar sivil ijazah nama unik supriyati nim jurus teknik sipil fakultas teknik sipil rencana
+    - ijazah tidak terverifikasi sivil nomor ijazah tidak terverifikasi web sivil muncul tulis data tidak ditemukan pastikan isi nama pt program studi isi teman teman its alam mohon ya kait daftar cpns butuh verifikasi kebsahan ijazah kemenristekdikti diakses web sivil https ijazah ristekdikti go
+    - nomer ijazah tidak deteksi nama badruddin nrp
+    - no ijazah tidak ditemukan forlap dikti salam mohon kait masalah nomor ijazah tidak ditemukan pangkal data forlap dikti laman www ijazah ristekdikti go lengkap administrasi lampirkan ijazah transkrip nilai a indra wulan sari ramadani
+    - daftar ijazah sivil ristekdikti wenang urus daftar ijazah sivil ristekditi zid latifataz zahrok alumni its jurus fisika angkat kait no ijazah tidak dapat ditemukan halaman sivil https ijazah ristekdikti go pohon wenang daftar ijazah halaman lampirkan ijazah perhati wassalamu
+    - forlap dikti asslamau vebby arga pradana alumni its perihal data forlap dikti data mahasiswa lintas jalur lj teknik fisika seseter ganjil nama vebby arga pradana tidak cantum forlap dikti ya mohon diurus rencana si terkendala syarat tidak cantum data si lj teknik fisika nama forlap dikti ditunggu responnya ya salam vebby arga pradana
+    - nomor ijazah tidak daftar forlap sivil ristekdikti mohon nomor ijazah didaftarkan forlap sivil ristekdikti insyaallah perlu berkas cpns ristekdikti
+    - nomer ijazah belum daftar wiryo febdila alumni its lulus jurus teknik informatika status ijazah belum daftar dikti nomer its ftif si
+    - forlap dikti suai tunjuk edar lampir kendala tidak nama forlap dikti si universitas hang tuah si its kirimkan surat verifikasi absah ijazah a n hadi prasutiyon ditandatangani rektor universitas hang tuah surabaya lampir suai surat edar kementrian ristek dikti periode lapor pddikti nomor si p point a a mohon its kenan masuk nama data forlap dikti maksud kerjasamanya haturkan salam hadi prasutiyon
+    - ijazah alumni tidak terdata forlap dikti ya sehubungan keluh salah alumni desain produk dimana nomer ijazah ybs tidak terdata forlap dikti mohon tim dptsi tindak lanjut keluh nama jatmiko tri wijayanto nrp nomor ijazah its ftsp si lampirkan scan ijazah color bawa transkrip ybs kerjasamanya salam dyah ayu p
+    - nomor ijazah belum daftar cek web dikti nomor ijazah tidak ditemukan mohon nama chairul anam nomor ijazah its ftk si lampirkan ijazah si teknik laut
+    - ijazah tidak daftar sivil ijazah tidak daftar nama diajeng anjarsari rahmadani nrp departemen teknik industri fakultas teknologi industri
+    - ijazah tidak deteksi forlap dikti dptsi alam kendala kecek ijazah website ijazah ristekdikti go tulis no ijazah tidak valid tidak ditemukan data data ijazah nama muhamad faisol departemen teknik mesin wisuda no ijazah its fti si lintas jalur nama ayah h muhammad rofiq nama hj bairoh mohon ditindak lanjuti
+    - nomor ijazah tidak daftar kemeristekdikti mucharromatul aula alumni its wisuda lamar cpns nomor ijazah belum daftar web kemenristekdikti kait bakpm disarankan lapor via servicedesk its lampir scan transkrip nilai ijazah pohon bpak daftar nomor ijzah nomor its fbmt si ucapkan best regards mucharromatul aula
+    - verifikasi ijazah daftar cpns kait verifikasi ijazah sivil data tidak ditemukan rincian guru institut teknologi puluh nopember jurus teknik industri nomor ijazah its fti si mohon kecek verifikasi perlu daftar cpns
+    - ijazah tidak terverifikasi sivil nrp nomor ijazah tidak terverifikasi sivil https ijazah ristekdikti go nomor dimasukkan suai ijazah teman teman alam identitas nama mayang kautserina nrp mohon nomor ijazah bisa terverifikasi daftar cpns
+    - verifikasi ijazah ristek dikti alumni its jurus teknik informatika kecek ijazah online http ijazah ristekdikti go tetapi nomor ijazah belum daftar nomor ijazah its ftif si nama hans alfon ericksoon nama kandung alfida lembang nama ayah kandung luther menon sertakan softcopy ijazah ktp transkrip
+    - data forlap dikti dah mohon daftar ijaza dikti sehubungan urus ijin suka surat terang ahli gapensi lulus erti ijaza belum daftar kerjasamanya salam gukben sitanggang
+    - ijazah tidak sivil kemenristekdikti alumni its angkat ikut wisuda verifikasi ijazah sivil kemenristekdikti daftar kerja laman data ijazah tidak daftar muncul data tidak ditemukan pastikan isi nama pt program studi wisuda diinputkan belum ya mohon bantunnnya mendapaftar cpns ucapkan
+    - daftar nomor ijazah ristek dikti muhammad taufiqi lulus si fisika its minta service desk its dapat daftar nomor ijazah si si dilampirkan ucapkan salam muhamad taufiqi
+    - ijazah tidak daftar perkenalkan nama intan andriani putri alumni fisika mipa its angkat data ijazah tidak ditemukan verifikasi laman https ijazah ristekdikti go index php mohon daftar cpns lampir scan ijazah serta transkrip
+
+- intent: sim
+  examples: |
+    - integra mohon maaf perkenalkan lusthya mahasiswa tf isi ipd tidak bisa ya laman integra tanggal juni tanggal ditutup nilai tidak bisa ipd tidak bisa diisi
+    - direktur dptsi its sehubungan tidak bisa terima surat via e kantor mohon akun kasubag departemen fisika fsains its dapat terima surat via e kantor notifikasinya bisa diterima via email nama drs ec suparno email tino its username integra jabat kasubag departemen fisika fsains its informasi email beliau dibuka muncul halaman lampirkan kerjasamanya
+    - request update mata kuliah myits classroom direktorat kembang teknologi sistem informasi dptsi ofi sofia marwah prodi teknologi rekayasa otomasi program rpl maaf minta mengupdate myits classroom list mata kuliah menu my course recent mata kuliah ambil tetapi tidak cantum my course tidak dapat akses kimia terap flexible manufacturing system industrial internet of things teknologi informasi otomasi industri kian pesan best regards ofi sofia
+    - baik sim direktorat hubung internasional tanya bisa pohon baik sim sim tim mahasiswa tim tidak io tim media informasi uas minggu bisa pohon dptsi baik kondisinya tidak bisa log username password
+    - nama belum muncul classroom mahasiswa faridatul khusna nrp kuliah gelombang namanya presensi tidak classroom mohon arah
+    - integra pegawai dptsi tidak bisa akses integra proses rekap absensi gawai tanggal desember upload lembur gawai mohon baik akses integra
+    - akun its classroom kunci akun its classroom kena hack merubah password esokknya masuk password salah akun its classroom kunci email dati its classroom ubah iqbal gmail com email tidak diketehui myits dalah diperbaiki tugas absensi
+    - mahasiswa datanya belum masuk myitsclassroom vania farah candrawati sistem informasi ulang mata kuliah matematika kelas tetapi matematika tidak myitsclassroom teman alam mohon tindak perkuliahan
+    - create nomer sim e kantor assalamualikum mohon izin kait sim e kantor metode ambil nomer sertifikat ambil nomernya bisa langsung tidak persatu
+    - my its classroom warahmatullahi wabarakatuh semangat moga staf dptsi sehat dptsi mohon maaf my its classroom masalah senin tidak dapat upload dosen mahasiswa baik mohon estimasi sistem daring
+    - tidak bisa login myitsclassroom aditya tamateja mahasiswa teknik infrastruktur sipil dapat masalah tidak bisa login akun my its classroom alam error terus pastikan pas tulis presensi bisa diakses itsclassroom tidak bisa login bisa lakukan dapat login wassalamualaikum
+    - tidak bisa log my its classroom tidak bisa log my its classroom password password my its alas akun belum terverifikasi verifikasi solusinya
+    - riswan akses classroom siakad mohon akses classroom siakad
+    - tidak bisa login integra entry suka tidak bisa login integra entry suka departemen manajemen bisnis kun username suka mohon besok upload suka
+    - nama tendik tidak entry lembur nih problem departemen kimia entry lembur tendik nama nama nya nama nama dosen ya
+    - tidak bisa login my its sso mendownload my its classroom coba login coba login my its sso login gagal ulang kali coba nrp username password no daftar password coba tidak bisa login coba lupa password akunmu belum diverifikasi kontak service desk mereset passwordmu
+    - baik data absen tendik departemen teknik fisika tindak lanjut data absen sim pegawai tenaga kependidikan departemen teknik fisika a n sutjahya kait rekap tukin gawai mohon data absen pulang tidak muncul integra tanggal
+    - form_penanya mohon maaf menganggu perkenalkan nama muhammad rayhan teknik industri its angkat ijin tanya platform umum integra isi kuisioner tanggal juni tetapi tidak bisa isi isi dapat ya
+    - belum dapat email aktivasi sister dptsi email an vaniamitha mat eng its belum email aktivasi sister mohon info
+    - presensi kuliah tidak bisa login presensi its pswrd abcd
+    - akses zoom dosen teknik sipil basshofi admin zoom myits classroom mohon diaktifkan dapat zoom aplikasi myits classroom dosen teknik sipil its data nama ahmad basshofi habieb akun integra email ahmadbassofi its dosen sangkut tidak bisa zoom meeting aplikasi myits classroom sertakan lampir bukti error salam dimaswlp
+    - bkd pm warahmatullahi wabarakatuh pm ya mohon bkd nama hariyanto beliau dosen bernidk lupa mengentry data ajar beliau pisah suka dosen pns alhamdulillah diupdate dientry integra tim mohon masuk integra nama beliau an subchan bkd january juni tulis wakil rektor itk aktif januari mohon nya betul dosen periode masuk beban ajar sedia wassalam subchan kadep matematika
+    - tidak bisa login presensi dptsi support team lapor username tidak bisa masuk login presensi its mohon salam
+    - tidak bisa log my its classroom belum bisa log my its clasroom akun belum terverifikasi veifikasi no hp dll solusinya
+    - data frs isi kuisioner dosen mata kuliah isi riwayat isi ubah data kuisioner dosen belum isi data nilai frs belum muncul mata kuliah departemen muncul
+    - absen dptsi widya assalamualakum maya sih tanya tanggal kemarin masukkan data izin integra indak bisa pilih date nya ya usaha kasubbag beliau nya tidak bisa kasih solusi ya alfa kemarin masukkan izin tanggal agustus pas masukkan integra tanggal september belum seminggu date nya lock pop up window masuk data izin divalidasi tanggal solusi tidak ya kemarin coba tanya hanim langsung samean suwun wassalamualaikum sincerely maya
+    - rekap absensi integra tidak suai rekap absensi integra nama tendik novilia hardiani tulis faktor kurang total faktor perngurang
+    - input beban ajar dosen mku mohon admin mahasiswa input beban ajar dosen program studi diploma statistika tetapi nama dosen mku nama sita subadra si fil phil intan novita ferdiyanti si hum hum belum cantum hubung muji syukur diarahkan lapor dptsi lampirkan gambar terang mohon tindak
+    - tidak bisa login myits classroom myits teknik elektro
+    - myits classroom ajun belum terverifikasi lupa sandi
+    - komplain rekapitulasi hadir integra staff dptsi rizqi amalia unit lppm kait rekapitulasi absen integra november tidak hadir november tanggal november sakit tanggal november anggota keluarga tinggal surat izin validasi atas langsung tetapi akun integra tulis alpha mohon terang alpha bisa dirubah izin tidak masuk kerja dikhawatirkan mempengaruhi nilai gawai kerjasama
+    - mahasiswa kelas upmb matematika myits classroom admin my its classroom dptsi its mohon masukkan kelas matematika mahasiswa farrell zata amani mtk rafly rizky ramadhan mtk hendixa luthfi ichfantirefa mtk miroslav andres gerardo mtk ferdy arsono kusuma ya mtk luqman aziz muhammad mtk sultan mtk mohon mahasiswa dapat dimasukkan kedalam kelas matematika upmb salam dimaswlp
+    - ubah primary email myits classroom perkenalkan rizky haura nrp jurus si teknik mesin ubah primary email myits classroom salah masuk email email haura mhs its tetapi menginput haura mhs its
+    - entry bkd nama mahasiswa tidak munculo sim bkd dept statistika fmksd dapat informasi tugas entry suka nama nama mahasiswa lulus periode wisuda maret tidak sim bkd entry suka sim akademik mohon nama lampir dapat dimasukkan diaktifkan sim bkd tugas dapat entry suka perhati salam antonius sumitro admin akademik si dept statistika fmksd
+    - course classroom salah kelas aisyah rahmawati nrp mohon maaf lapor couse konsep sih classroom masuknya kelas konsep sih kelas b ganti kelas konsep sih kelas b
+    - cannot login http share its login index php loging http share its login index php mengunakan nrp dibawah tidak bisa mohon tugas submit website mohon maaf regards jainul
+    - sim akademik sehubungan dosen lb departemen teknik sistem kapal ftk its belum akses sim akademik mohon akses sim akademik dosen lb dtsp dibawah sunarsih si t msc emmy pratiwi si t role sim akademik liput prodi si reguler prodi si double degree sunarsih emmy prodi si reguler dd sunarsih emmy prodi si sunarsih kerjasamanya
+    - presensi online tidak bisa akses dptsi its sama informasi tidak dapat akses presensi its terang eror gambar
+    - reset password myits classroom tidak bisa login myits classroom integra bisa mohon reset tidak bisa presensi
+    - mohon koreksi absen mohon koreksi hadir tenaga kependidikan tanggal juli tenaga kependidkan departemen manajemen its tanggal tulis alpha sih pegawai lihat sih pegawai menu ppk tendik sub menu lihat data finger asli absensi masuk pulang nama nama tenaga kependidikan mmt tulis alpha tanggal juli moch nor sholehan erwina adhyarini widya kusumawardhani bagus nugroho titien eriyanawati sri wahyuni indriani puspitab sari ahmad enggal maosyara neno diar p ekaraga kamil mulya maulita nahdiyah mizati dewi wasdiana teguh haryono kasubag
+    - entri bkd tim dptsi proses entri perlu bkd tidak daftar mahasiswa si fyi cek mahasiswa ambil frs semester mohon best regards
+    - ganti password myits wali naufal rafif hibban nrp aju minta ganti password myits wali orang tua data tanggal lahir orang tua terganti otomatis tidak suai tanggal lahir integra sebab password myits wali tidak suai tanggal lahir orang tua
+    - shift tugas parkir tugas integra pegawai mohon revisi isi sift lapor absensi tugas parkir departemen teknik kimia januari tulis normal dapat diganti suai sift usulkan usul lampirkan salam irna
+    - myits wali tidak dapat login tanya tentany myits wali dibilang orangtua dapat login nomor telpon tanggal lahir orangtua coba login nomor telpon daftar integra tetapi tidak bisa login bisa
+    - tidak bisa buka e kantor mohon bisa buka e kantor integra integra a n prof taslim ersam dept kimia
+    - e kantor mohon diperbaiki e kantor sim integra nama user diperbaiki eddy setyo st sc nip nip menu e kantor integra ybs tetapi belum tidak bisa dibuka mohon dibuka diperbaiki dtsp its
+    - akses entry suka giat lapor tugas entry suka departemen teknik laut dilaksanakan saudara dwi purnomo hendradhata diganti nama dwi arba ati sri rahayu niph
+    - error buka e asset team dptsi mohon bantuanya user integra eddy its tidak bisa buka menu operator asset integra lampir capture error nya
+    - tidak bisa login classroom mahasiswa nama muhammad abid fadlullah nrp tidak bisa masuk akun its classroom tidak bisa login its classroom password integra
+    - tidak dapat login myits wali orang tua tidak dapat login myits wali suai tanggal siakad mohon
+    - minta integra aset teknik instrumentasi pohon akun integra e aset teknik instrumentasi integra rizky maulidan nina ristiyanti si e nina its ybs menghandle masuk data integra e aset
+    - my its classroom nama william alexander garcia leonarto nrp departemen teknik kapal joint degree no hape mahasiswa its tanya myits classroom tera myits classroom tidak pilih course myits classroom terhubung its presensi minta mohon maaf salah sengaja tidak disengaja regards william alexander
+    - tidak bisa presensi online tim dptdi mohon teman fsad tidak bisa absen online email beliau teguh its
+    - entry suka didik teliti abdi masyarakat giat entry data suka uji maju tugas suka ajar suka panitia giat departemen suka bimbing tugas proses entry data kendala data dosen ampu mata kuliah masukkan sim akademik tidak deteksi pop up data mata kuliah diampu dosen proses entry data suka ajar data nama mahasiswa tidak bisa nge link maaf tidak temu bahasa pas masuk data mahasiswa uji bimbing entry data suka uji suka bimbing tugas tesis disertasi kendala bingung tanya dptsi bapkm
+    - entry suka mohon dapat entry suka nama si sos nada fitrieyatul hikmah st mt mata kuliah probabilitas statistika teknik numerik elektronika biomedika dasar olah sinyal digital dasar sistem cerdas olah sinyal biomedika komputasi biomedika biomodeling siti halimah mata kuliah dasar sistem cerdas pencitraan medika
+    - akun myits sso belum terverifikasi keluh sso tidak bisa dibuka my its classroom tidak bisa dibuka akun belum terverifikasi mohon ditindaklanjuti kecek jadwal kuliah my its classroom link jadwal kuliah diadakan senin september ucapkan mohon maaf ditindaklanjuti
+    - absen online tidak bisa dptsi mohon bantuanya user suyoto its tidak bisa absen online terim salam
+    - absen tidak terekam informasi tanggal april integra belum tarik data masalah mohon cek
+    - akses eperkantoran mohon akses eperkantoran perlu aju uang
+    - masalah log my its classroom warahmatullahi wabarakatuh nama ihya ulum aldin nrp departemen rencana wilayah kota aju keluh tidak bisanya log aplikasi my its classroom username sandi tetapi tidak bisa masuk coba log tulis sandi salah wassalamualaikum warahmatullahi wabarakatuh
+    - e kantor trouble mohon kecek baik e kantor tidak bisa dibuka a n nama irnaningsih sh nip email irna its departemen teknik kapal
+    - finger print tidak deteksi absen departemen manajemen bisnis tanggal si februari tida bisa bisa kedeteksi dosen tendik mohon ditindaklanjuti
+    - my its wali tidak bisa login nama syaiful bahri dirgantara nrp orang tua tidak bisa login my its wali username password dimasukkan suai arah nomor hp tanggal lahir
+    - entri esurat admin integra its kemarin tercreate tu_ftspk its user anggap proses facing out tu_ftslk its tu_fadp its surat create user tu_ftspk its masalah timbul kirim surat e surat kontak internalnya duduk ft spk tidak mohon solusi kontak kirim nomor user tu_ftspk its
+
+- intent: my_its_integra
+  examples: |
+    - reset password integra dptsi mohon bantuanya reset password integra username ir atok setiyawan eng sc
+    - reset password integra mohon reset password integra dosen a n prof ir h ontoseno penangsang sc ph user
+    - tidak bisa login integra admin servicedesk its mohon bantuanya proses gagal login tidak daftar layan integra its data nama yulia yasmin email yasmin its npp mohon diproses email proses surat myits office
+    - account locked account my its kunci mohon bisa direset
+    - tidak dapat buka myits classroom integra presensi website its keluh sulit akses website its myits classroom integra websitenya loading lambat vpn mobile data website dapat normal solusi menggangu dosen larang absen telat masuk zoom telat thd salam hangat
+    - unlock akun myits unlock akun myits tidak bisa absen
+    - ganti password integra merubah password integra akses myits sso password otomatis password simpan laptop hp tetapi tidak bisa akses myits sso jam kerja password masukkan tidak diterima klik forgot password kalimat your account has not been verified please contact service desk https servicedesk its reset your password mohon tidak bisa akses myworktime presensi mahasiswa tks
+    - reset password akun my its minta ganti password temu tidak absensi
+    - lupa password integra direktur dptsi perihal password integra nama tutik nurhidayati departemen biologi password dapat reset lupa bisa prosedurnya tutik nurhidayati
+    - lupa password integra username integra
+    - myits sso amri mufti nrp departemen sistem informasi masalah belum bisa masuk its classroom akun myits sso belum terverifikasi
+    - akun clasroom its locked integra tidak akun classroom its locked kemarin tidak cek integra akun integra aman aman
+    - reset password integra dptsi support team mohon resetkan account integra nama ir kusnarjo akses akademik ucapkan wassalam
+    - lost password akun my its terblock mohon bantu buka
+    - login myits login myits email putri its enggak bisa mohon perhati anis gue pustaka
+    - lupa password integra ussername integra
+    - lupa password lupa password log sso its password
+    - akun myits kunci username departemen studi bangun dosen lb pancasila sita subadra
+    - akun myits kunci staff dptsi mohon buka akun myits kunci nama username sriaji its password perhati ucapkan purwo dtki
+    - lupa password integra departemen statistika fakultas matematika komputasi sains data
+    - lupa password integra dptsi mohon mereset password integra nama muntari nanang unit upt bahasa budaya its alamat email mumun me its nanang_bahasa its
+    - lupa password integra mohon me reset password integra nama doddy ridwandono npm jurus sistem informasi fakultas teknologi informasi komunikasi wisuda september akses email its doddy mhs its butuh publikasi jurnal
+    - reset password integra arga mahasiswa lintas jalur its tuju minta reset password integra lalai wassalamualaikum
+    - reset password integra mahasiswa si ilmu komputer departemen teknik informatika minta diresetkan password login integranya bantu reset tetapi tidak hasil muncul comment ganti password gagal mohon hubungi admin lakukan nggih bisa hasil mohon nggih lina a akademik pascasarjana departemen teknik informatika
+    - lupa password lupa password log integra sso its password
+    - gagal masuk integra its gagal login integra myclassroom nrp password
+    - lupa password integra haris gue pratama mahasiswa mmt its
+    - reset password integra admin dptsi mohon bisa diresetkan password integra akun dosen t industri its user nama sritomo wignjosoebroto nip
+    - gagal login akun integra kukuh putra wiradarma dept teknik sipil mohon maaf akses mailbox mahasiswa login akun integra integra its app php tidak bisa ya tulis password salah login akun integra integra its presensi its classroom its bisa
+    - lupa password integra username nama diki ardis jutawan lupa password integra
+    - tidak dapat akses login my its sso tetapi bisa masuk my its _ _
+    - lupa password integra anisatu ainun khoirunida maba nrp departemen teknik geofisika milik kendala tidak bisa login integra lupa password belum bisa informasi frs belum bisa akses integra
+    - lupa password my its adinia nurusyifa kaesi rencana wilayah kota
+    - lupa password integra nama khensa noeren nrp mahasiswa desain interior angkat nya mohon maaf lupa password serta username tidak bisa buka integra tiket infokan username tidak mohon ya
+    - lupa password integgra mohon diriset password integgra nama ali munazid nrp
+    - riset password integra nama puan arisa hutahaean nrp nrp mohon diriset password integra
+    - reset password my its dosen teknik sipil edijatno admin my its sso dptsi its mohon reset password my its dosen teknik sipil nama edijatno akun my its beliau sulit akses email o365 myits classroom kait ajar salam dimaswlp
+    - lupa password integra username passwordnya lupa
+    - lupa password integra mohon lupa password akun integra
+    - lupa password integra lupa password integra serah transkrip salah syarat volunteer io jum at deadline nrp
+    - mohon reset password integra ya tim dptsi mohon dosen non pns dep matematika kuliah diluar beliaunya lupa password integra user beliau mohon mereset password beliau
+    - lupa password integra lupa password integra ber nrp
+    - tidak bisa login myits sso maaf ganggu pradnya paramitha nrp departemen teknik kimia industri mahasiswa izin tanya login my its sandi salah pakai nrp sandi no daftar kamis hubung help desk via wa dikasih password password tidak bisa login solusinya mohon wassalammualaikum
+    - lupa password integra _ _ reset password integra akun ahmad mhs its username lupa password integra
+    - masalah app my its absensi my its halo staff dptsi its surabaya aqil nuurrohim no nrp depr teknik komputer aju masalah app my its selasa app my its tidak merespon jadwal matkul rabu tidak bisa absensi my its masalah dimana tidak muncul data data matkul absensi masalah dimana login integra my its problem password ketik baik masalah harap staff dptsi dapat cepat tanggap kian
+    - lupa password my its luqman arif wicaksono teknik transportasi laut
+    - reset password integra olong reset password integra username nama ratna ediati
+    - lupa password integra mohon diproses reset password integra user nama mokhamad suhud departemen teknik kimia
+    - tidak bisa login myits henggar panggalih nrp memberitahu akun myits kunci
+    - akun kunci dptsi mohon akun myits kunci mohon buka akun nama juwita aprilyana zain integra unit studi bangun ucapkan
+    - reset pasword my its mohon reset pasword my its nama yusuf nur wahid nim
+    - need help reset password integra hd its mohon reset password integra its a n user nama alfan ardi wibawa nrp no hp email alfanardi gmail com
+    - lupa password integra tidak emal its direktorat kembang teknologi sistem informasi lupa password integra ganti aju ganti password tetapi tidak email its identitas nama nurul akbar arlan lubis nrp departemen teknik elektro
+    - lupa password integra sukses daftar akun web bisa terima email kecek ulang belum ganti password integra tidak bisa akses aplikasi myits hp password mohon isi sks semester perhati
+    - lupa password integra perkenalkan nama arief laga putra nrp mahasiswa si manajemen energi dtm ftirs its mohon dinormalkan login akun integra
+    - login presensi online tulis akun kunci maaf tanya ya login presensi online selau tulis akun kunci
+    - lupa password integra username integra departemen teknik komputer
+    - lupa password integra username integra email bagusfyandika gmail com
+    - reset password integra its mohon meresetkan password integra username heny chem eng its kerja samanya wassalamualaikum purwo dept teknik kimia industri its
+    - lupa password integra sila menginfokan username password integra
+    - verifikasi kode nomor hp salam anggit nurhandhika mahasiswa pascasarjana arsitektur its kendala verifikasi no hp masuk integra belum dapat kode sms tunggu jam coba belum dapat ya tidak bisa buka integra wali
+    - lupa password integra username lupa password nya lupa
+    - lupa password integra dptsi mohon bantuanya reset password integra username farida rahmawati purnadiana
+    - lupa password integra pic sim integra dptsi its mohon reset password ybs lupa nama user tendik kamudji username integra kamudji its
+    - lupa password integra its lupa password integra its
+    - lupa password integra maaf coba log pas nya dinyatakan salah bisa bantu
+    - akun email its classroom presensi kunci tidak bisa log classroom presensi akun email its kunci
+    - lupa password integra lupa password integra butuh lisensi matlab bisa didapatkan login akun integra matlab dibutuhkan penuh tugas fismat urgent
+    - myits sso tidak bisa login myits sso password username
+    - lupa password integra lupa pasword integra mohon me reset pasword
+    - tidak bisa masuk myits web nyata salah password tetapi login app android bisa microsoft azure tidak dapat login email integra its mohon direset password
+    - akun kunci bilqis amaliah ilmu komputer
+    - ida amirotun nisak lupa password integra nama ida amirotun nisak nrp
+    - account locked akun kunci lupa password tidak bisa login presensi its
+    - lupa password integra anisatu ainun khoirunida maba nrp departemen teknik geofisika milik kendala tidak bisa login integra lupa password belum bisa informasi kenal frs belum bisa akses email mahasiswa mohon hubungi via wa
+    - lupa password integra mmt its manajemen proyek haris gue pratama
+    - reset password integra mohon reset password integra nama mudjiningsih account integra afi its
+    - reset password tim dptsi tidak bisa log simpel its memggunakan password integra bisa minta reset password simpel its kah regards zizah
+    - masalah akses myits tidak dapat login myits nrp nama mahadika favian alfandaviska nrp
+    - myits wali tidak fungsi myits wali nomornya tidak bisa diaktifkan mengaktifkanya detail
+    - lupa password integra nama adelya syawjesil fachyesi departementeknik geofisika nrp maaf lupa password integra lakukan
+    - reset password integra username subdit ltsi mohon meresetkan password integra username
+    - akun classroom kunci coba buka its classroom via web kali pikih opsi login akun myits isi password suai akun myits akun kunci mohon solusinya besok kelas belum bisa cek link zoom nya
+    - gagal log integra admin dptsi meitha auliana dwi winarsih mahasiswa departemen teknik biomedik tanya tidak bisa log integra its catat username gunanakan nrp passwordnya password baru ganti bukan pasword default its mecoba kombinasi username nrp password nya nomor daftar snmptn tidak bisa log kombinasi coba username nomor daftar snmptn password nya tanggal lahir dd mm yyy tidak bisa log catat bisa log classroom myits sso username password kombinasi sebutkan mohon bimbing
+    - setan password integra mohon reset password integra nama afi its
+    - reset password integra mohon reset password integra djumari fakultas vokasi
+    - tidak bisa login integra tidak login integra nrp
+    - lupa password odelia eka prameswari nrp departemen statistika bisnis lupa password integra password
+    - tidak bisa presensi online myits sso kosong dptsi mohon doseng nama julius f nagel integra unit dept studi bangun dosen tidak bisa login my its sso presensi online tetapi login integra bisa mohon
+    - lupa password integra mohon informasi password akses integra muhammad ridwan nrp
+    - akun my its kunci akun my its kunci salah sandi mailbox
+    - lupa password integra dptsi mohon mereset password denganusername yanuar rulyanto
+    - lupa password integra muhammad wifqi ariful fuadi nrp lupa password integra ubah vickaf tetapi gagal login mohon wassalamualaikum
+    - lupa password integra login password nya lupa
+    - lupa password integra username integra nama muhammad luthfi attaka rizqi
+    - akun my its dikunci akun my its presensi dikunci tidak bisa login tidak bisa ikut giat ajar absen
+    - lupa password integra maaf ticket category nya tidak dapat ditemukan layan integra layan email its nrp departmen teknik mesin si lupa password integra email rizkymumtaza gmail com
+    - lupa password my its cahyo durujati ilmu teknik elektro
+    - lupa password aju reset password integra lupa password
+    - lupa password integra mohon meresetkan password integra username saidahaltway chem eng its perlu isi e filing pajak kerja samanya purwo dept teknik kimia industri its
+    - lupa password integra lupa password integra tidak bisa akses email its ingini mereset password akun integra hubung hubungi email alfariqsalman gmail com nomor handphone tera
+    - akun myits kunci erna wati nrp departemen teknik informatika akun myits classroom kunci menguhubungi dptsi belum respon
+    - akun its classroom presensi terlock pulih akun its classroom presensi lock tidak tau terlock
+    - akum myitsclassroom mahasiswa kunci warahmatullahi wabarakatuh dptsi mohon maaf welly herumurti dosen teknik lingkung pohon reset password mahasiswa timor leste eleonora fatima martins https presensi its hadir mahasiswa mhs re a
+    - reset password login myits user name no daftar password tanggal lahir sbgmn isi sipmaba gagal login isi password dptsi reset ulang salam
+    - lapor integra bisa login tetapi web myits sso tidak bisa masuk muncul tulis myits sandi salah ya besok kelas
+    - lupa password integra lptsi its mohon meresetkan pasword integra nama prof ir happy ratna si sc ph nidk jabat dosen khusus departemen arsitektur kerjasamanya salam eko budi cahyanto departemen arsitektur
+    - lupa password integra user name nama irmasari hafidz skom msc dept sistem informasi its
+    - lupa password integra mahasiswa integra its
+    - akun myits belum terverifikasi mohon arah aktif akun myits nup npp nama ahmad basshofi habieb
+    - mohon dimasukkan integra kepala dptsi mohon masuk salah dosen integra beliau nidn bisa mata kuliah diajarkan dosen a n nama dwi nur fitriyanah si st t nidn departemen teknik instrumentasi kerjasamanya
+    - reset password integra reset password integra lupa password
+    - password integra salam lupa password integra mohon info salam
+    - reset password integra mahasiswa basru si mohon reset password integra mahasiswa nama lely kurniawati nrp dept kimia f sains prodi si
+    - lupa password lupa password integra nrp
+    - reset password integra nathasya deborah dandel nrp mahasiswa departemen desain produk aju me reset password integra its tidak password tidak dapat masuk integra jadwal nilai nilai
+    - lupa password integra nama nurul akbar arlan username departmen teknik elektro
+    - lupa pas word my its lupa password integra
+    - reset password myits desain komunikasi visual
+    - tidak bisa log myits sso faradiba honora nrp mahasiswa departemen teknik kimia industri angkat keluh tidak bisa log myits sso username nrp password no daftar tidak bisa log jumat coba log beri akun kunci hubung via wa layan dptsi belum balas solusinya ya kian
+    - tidak bisa log my its account locked tidak bisa log my its account locked mahasiswa acep moi kokong pasca sarjana teknik mesin its
+    - reset pasword akun integra my its mohon mereset pasword my its tidak bisa login nama sabrina fany raditya nim thanks
+    - microsoft azure tidak bisa login microsoft azure login password integra
+    - lupa password integra admin helpdesk mohon reset password integra nama nama tri wahyuni agustina nrp kuliah manajemen rantai pasok perhati salam tri wahyuni a
+    - lupa password integra departemen rencana wilayah kota
+    - my its tidak dapat masuk myits mohon request wa layan my its tidak dapat masuk myits nama ahmad baidowo departemen teknik sistem kapal
+    - akun kunci tidak dapat login myitsclassrom akun kunci sebab tidak bisa absensi
+    - tidak bisa login myits account integra kuliah pasca sarjana belum bisa akses myits
+    - forget password integra mohon mereset password integra lupa passwordnya ucapkan fajar astuti h
+    - tidak bisa login my its prayoga erlangga akun belum terverifikasi mohon hubung service desk https servicedesk its atur ulang sandi halaman masuk https my its sso password forgot
+    - lupa password integra username integra departemen matematika
+    - reset password integra dosen ir mudji irmawan mohon dapat reset password akun integra dosen teknik sipil its biodata nama dosen ir mudji irmawan nip mohon reset password integra sangkut tidak bisa login akses integra perhati salam dimas wlp
+    - lupa password integra lupa password akun integra its maaf ganggu nrp lupa password akun integra its mohon
+    - cepat sandi muhammad ainur rosyid ridho nrp departemen biologi its surabaya izin tanya masalah password habis ubah password myits kemudai bisa unyuk login integra its tidak bisa ya solusinya
+    - mohon riset integra mohon direset password integra nama sriati
+    - reset passwd integra pimpin dptsi kampus its sukolilo surabaya mohon resetkan password integra dosen nama windiani si sos sih unit upt pmk soshum its username integra lupa password integra mohon dibuatkan password kerjasamanya admin upt pmk soshum
+    - verifikasi myits its mohon diverikasi akun myits its bisa work from home
+    - reset password integra lupa password integra mohon reset passwordnya
+    - lupa password my its nindy permatasari sistem informasi
+    - lupa password integra reset password akun integra nama aristo andryanto nrp jurus si teknik industri its kelas kerjasama industri danndash pt vale indonesia
+    - lupa akses integra mohon dapat kait lupa password integra nama ricardo pasaribu nrp manajemen industri perlu frs
+    - lupa password integra lupa password integra minta reset user kasubag a n arief boediono trimakasih
+    - lupa password integra anisatu ainun khoirunida maba nrp teknik geofisika milik kendala tidak bisa login integra lupa password belum bisa informasi frs belum bisa akses email mahasiswa
+    - reset password integra minta reset password integra keliru sistem lupa
+    - tidak bisa login my its sso dptsi mohon doseng nama i putu tedja integra unit dept studi bangun dosen tidak bisa login my its sso presensi online tetapi login integra bisa mohon
+    - reset password integra tim dptsi mohon mereset password integra dosen t industri user nip nama patdono suwignjo
+
+- intent: vpn
+  examples: |
+    - saya ingin mengajukan akses vpn untuk akses repository its
+    - assalamualaikum wr wb saya ingin mengakses vpn untuk perihal tugas akhir
+    - permisi, saya ingin bertanya bagaimana cara untuk mengakses vpn its
+    - selamat siang, saya ingin bertanya mengenai proxy its
+    - bagaimana cara setting vpn dari its
+    - bagaimana cara mendapatkan akun vpn its
+    - selamat siang, saya ingin mengajukan vpn
+    - selamat pagi, bagaimana cara untuk mengajukan vpn
+    - permisi selamat malam saya ingin mengajukan akses vpn
+    - bagimana cara mengakses proxy its
+    - pengajuan vpn its untuk mengakses repository
+    - saya ingin mengajukan vpn its untuk mengakses repository
+    - perihal tata cara pengajuan vpn di its
+    - conecting its has failed vpn tidak bisa conecting vpn its bisa tidak bisa
+    - aktif vpn its ikut step by step tutorial pandu setting vpn its windows web nya dptsi tahap connect menu pilih its open vpn gui hasilnya failed mohon cerah nya
+    - trouble vpn alam kendala vpn mohon
+    - gagal connect vpn aktif vpn durasi coba baru ikut step step kali tetapi gagal coba uninstall reinstall openvpn gagal mohon
+    - vpn its angger dzaky hanif tanya vpn its connect warna vpn hijau warna putih terang openvpn warning merah sebab atas ya
+    - vpn tanya aktif vpn mahasiswa dapat lapor mahasiswa bisa vpn jam bisa
+    - atur vpn macos servicedesk its mohon informasinya pandu atur vpn macos pandu sedia sistem operasi windows regards arfinda
+    - tidak bisa akses vpn its yauma amgkatan akses ieee vpn its ikut prosedur diarahkan tidak bisa bisa jam tidak bsia akses vpn its mohon jawabanya
+    - vpn dptsi akses vpn its alam baik coba akses vpn its tidak bisa sambung
+    - tidak bisa akses vpn tidak bisa akses vpn its tidak bisa entry kuitansi nota kedalam sim uang supiono dept teknik instrumentasi fv its nip
+    - butuh setting vpn remote akses ejournal perpus its dptsi coba mensetting vpn remote akses biar bisa baca ejournal rumah ikut tunjuk https dptsi its download akses_vpn_untuk_dosen_tendik_dan_mahasiswa pdf kali masalah error attachment mohon tunjuk nya
+    - vpn its dany setiawan nrp tanya guna vpn aju alamat proxy username password tetapi tidak paham pengaplikasiannya laptop
+    - vpn its tanya download vpn windows didownload dilingkari warna merah
+    - akses vpn dptsi miza mmt didaftarkan akses vpn username its ab e mail cantum mizati its vpn akses jurnal jaring its batu dosen bisa akses vpn salam mizati dewi wasdiana tugas pustaka mmt its
+    - vpn internet its perkenalkan adhitya khemal rachmadi mahasiswa teknik industri its angkat tanya guna vpn internet its laptop mac tata guna vpn internet its versi windows dicocokkan laptop mac vpn internet its tidak dapat terhubung tanya tahap tahap bisa hubung laptop mac vpn internet its perhati
+    - browsing vpn its dptsi terhubung jaring its openvpn browsing alam masalah privacy error screenshot lampir minggu minggu tidak alam masalah mohon salam norma hermawan
+    - vpn mahasiswa mooh maaf masalah vpn mahasiswa komplain pustaka bisa akses e journal e book jam sulit mahasiswa browsing butuh tugas paper tidak pilih vpn nya
+    - keluh install vpn its perkenalkan muhammad nurhasan assidiq mmt jakarta tanya langkah install vpn its coba ulang kali belum hasil bisa mohon informasi detail salam terim
+    - vpn gagal minta restar yht tim dptsi mohon npp coba pakai vpn gagal kadang bisa kadang tidak bisa anti visa disable coba uninstall install user vpn aktiv gambar lampir
+    - vpn bermasalah dptsi team widya alam masalah akses internet open vpn vpn diaktifkan situs dibuka tampil indikasi internet tidak private gambar lampir ya coba request ulang akses internet gagal request akses tanggal januari jadi januari asumsi masalah jaring internet tetapi akses internet vpn teman alam akses internet its vpn
+    - tidak bisa akses vpn its admin dptsi rarasmaya indraswari dosen departemen sistem informasi npp coba akses vpn its menu one time password integra its app php perlu akses jurnal springer dll coba minta akses my its otp akses muncul mahasiswa tidak muncul username password vpn request mohon bisa request vpn its rarasmaya indraswari
+    - vpn akses vpn daftar proxy its its mahasiswa mmt kelas kerjasama jakarta akses jurnal dilanggan its
+
+- intent: internet
+  examples: |
+    - tidak dapat mengakses internet
+    - kendala dalam akses internet
+    - internet mati
+    - internet jurusan tidak dapat digunakan
+    - password yang salah untuk internet
+    - membuatkan user dan password untuk akses internet tamu
+    - request akses internet untuk tamu
+    - mengajukan akses internet untuk tamu
+    - cara mengakses internet untuk mahasiswa 
+    - internet bermasalah
+    - internet SAC bermasalah
+    - kecepatan wifi lemah 
+    - wifi putus nyambung
+    - wifi masjid manarul ilmi tidak dapat digunakan
+    - jaringan internet down di international office rektorat
+    - setting ulang wifi
+    - koneksi internet rektorat bermasalah
+    - koneksi lan ikoma ITS tidak dapat disambungkan
+    - switch mohon internet pustaka tidak bisa koneksi dicek sebab switch dptsi lantai pustaka tidak fungsi
+    - pinjam wifi dptsi ruang sidang gedung rektorat its dhila wakil bem ftif its sehubungan acara nama sociopreneurship acara latih internet marketing umkm surabaya diselenggarakan sabtu minggu tanggal maret gedung rektorat its ruang sidang pohon izin pinjam akses jaring internet langsung acara sertakan lampir surat izin perhati ucapkan
+    - internet tamu admin teknik fisika datang reviewer ban pt dukung giat minta dibuatkan user password akses internet tamu demikan
+    - minta access point sehubungan pindah gedung dept teknik geofisika diberlakukannya sistem presensi perkuliahan online aju minta acces point butuh ruang kuliah
+    - setting ulang wifi asslamualaikum anwar dppsp subdirektorat simri spl pohon tim jaring dapat menyetting ulang wifi kantor pindah lokasi ruang
+    - pinjam jaring dukung teknis sehubungan dilaksanakannya skype meeting aplikasi skype aju pinjam jaring serta dukung teknis dptsi laksana giat dilaksanakan rabu tanggal mei danndash wib ruang djelantik arsitektur its harap kenan izin pinjam jaring serta dukung teknis dptsi informasi sila hubung sdr budi email international its nomor wa pabx dapat kerjasama
+    - jaring internet ruang sekretariat sbmptn down direktur dptsi akses internet akses point ruang sekretariat sbmptn gedung rc lantai ruang down hemat pribadi jalur internet ruang ambilkan switch ruang pakai scanner lju internet down rabu mei nya akses point tidak ip address set manual tidak ip addresnya kabelnya arah ruang sekretariat lepas mohon bantu tindak bisa akses internet
+    - wifi masjid manarul ilmi its layayan masalah akses wifi masjid manarul ilmi its
+    - internet international office rektorat down jaring internet international office rektorat down
+    - koneksi lan ikoma its internetnya ikoma tidak konek padam kemarin mohon bisa diperbaiki ya perlu operasional ikoma
+    - speed wifi lemah putus mohon maaf departemen statistika bisnis pindah gedung gedung tc ex sih its wifi gedung alam kendala putus kurangnya speed internet prosedur atas
+    - koneksi internet sac its bermasalah admin tugas gregorius yudistira effendy staff magang sac its lapor koneksi internet sac its bermasalah tidak dapat connect jaring coba restart angkat wifi switch lokal tidak dapat connect ya
+    - koneksi internet ikoma its mohon diperbaiki koneksi internet ikoma ya padam listrik kamis tidak connect mohon diperbaiki ya surono ikoma its
+    - one time password internet tim dptsi mohon akun integra buchs ie its fitur one time akses internet tamu bisa durasi
+    - internet sac its bermasalah gregorius yudistira effendy mahasiswa magang sac its lapor jaring internet sac its bermasalah device terhubung lan wi ip its tidak dapat connect jaring halaman login akses tidak muncul ya mohon maaf ticket email salah ticket
+    - akses internet tamu mohon akses internet tamu tidak bisa create user password user passwordnya tidak bisa login bisa user mohon
+    - tarik kabel jaring mohon informasi prosedur minta jaring gedung dept desain interior januari departemen pindah gedung perhatianya
+    - admin test dept teknik transportasi laut minta cek koneksi internet dept teknik transportasi laut trouble
+    - wifi gedung rc lemot tim dptsi jaring wifi unit lppm gedung riset center lantai lobby seminggu tidak jalan lemot putus sambung sinyal lemah kadang kadang hilang menggangu kerja its wifi its wifi rc jaring pakai kabel lan lancar lancar tidak komputer laptop kabel lan gerangan mohon solusinya penangannya
+    - internet pwk mati total mohon dicek jaring pwk mati total trimakasih
+    - internet access kepala dptsi institut teknologi puluh nopember surabaya sehubungan diadakannya danldquo joint review meeting basic engineering design flare gas recovery system refinery unit iii plaju pt pertamina persero danrdquo pt its tekno sains minta izin akses internet ruang sidang lppm gedung riset center lantai giat dilaksanakan selasa tanggal november wib wib ajukan kerjasamanya pt its tekno sains ir ketut gunarta t direktur
+    - butuh akses internet sehubungan diadakannya latih danrdquo fundamental artificial intelligencedanrdquo jum at minggu tanggal oktober pt its tekno sains aju akses internet serta latih orang serta trainer damping trainer ajukan kerjasamanya
+    - internet putus internet geofisika gedung ex lptsi putus sambung jumat mohon departemen laksana sidang tugas
+    - lapor jaring internet asrama lapor tanggal juli jaring internet its asrama putus cek tugas dptsi tanggal juli tetapi belum kembang
+    - internetnya mati minta cek internetnya
+    - sulit akses ieeexplore dptsi minggu sulit akses ieeexplore kadang bisa tidak bisa akses coba banding rekan rekan alam seringkali gagal akses ieeexplore akses ieeexplore browser pesan this page isndanrsquo t working if the problem continues contact the site owner http error perhati muhtadin
+    - koneksi internet pinjam ruang teleconference wawancara mahasiswa philipina
+    - wifi bkpkp trouble wifi bkpkp trouble tidak dapat diakses cek kabelnya tidak masalah
+    - minta access points minta access points rincian access points aruba unit poe injektor unit mohon ditindak lanjuti bisa layan giat akademik departemen teknik transportasi laut
+    - akses wifi sso rizqi lppm lppm minta dptsi akses wifi sso gedung rc lantai tanggal november november lppm milik acara indonesia malaysia research consortium seminar tempat gedung rc minta akses wifi sso ruang sidang rektorat lantai tanggal november tanggal rektorat indonesia malaysia research forum
+    - jaring gedung sistem informasi lemot mohon kecek ststus akses switch gedung departemen sistem informasi kecepatanya mbps mbps koneksi kabel lan spesifik port jaring mohon
+    - wifi scc lantai direktorat kembang teknologi sistem informasi nama wakil ukm scc lantai minta dukung direktorat kembang teknologi sistem informasi fasilitas jaring internet wi scc lantai belum ter _ cover _ signal its wifi wifi its scc tidak bisa butuh koneksi internet tunjang aktivitas mahasiswa scc lantai ukm nalar lpm tidak lepas riset telusur informasi keluh
+    - tidak bisa connect kabel internet putus sambung
+
+- intent: zoom
+  examples: |
+    - lisensi zoom
+    - zoom meeting
+    - akses zoom
+    - request zoom
+    - akun zoom
+    - zoom account
+    - zoom lisensi
+    - zoom license
+    - saya ingin mengajukan lisensi zoom
+    - permisi, saya ingin mengajukan akun zoom untuk kepentingan departemen
+    - saya ingin mengajukan zoom premium its
+
+- intent: dom_host
+  examples: |
+    - domain
+    - hosting
+    - website
+    - cara mendapatkan hosting ITS
+    - apakah bisa mengajukan subdomain ITS
+    - bagaimana cara mengajukan hosting
+    - request website ITS
+    - layanan hosting its
+    - layanan hosting 
+    - hosting hima
+    - hosting bem
+    - hosting himpunan departemen
+    - saya ingin mengajukan hosting untuk departemen
+    - tata cara pengajuan hosting di its
+    - bagaimana caranya untuk mengajukan hosting
+    - saya ingin mengajukan domain untuk project
+    - minta subfolder diesnatalies its minta dibuatkan subfolder giat dies natalis its nama subfoldernya masuk sites its diesnatalies sites its runits subfolder buatkan zeus nama diesnatalies its http diesnatalies its runits its http runits its sites its diesnatalies user eventdies pas cqeo hzwklop sites its runits user runitsits pas blrkarkp
+    - buka akses publik dptsi support team mohon open access publicnya website chem eng its
+    - akses website cse ee its its mempublish website domain cse ee its bisa diakses diluar jaring its
+    - install curl vps mohon tanya install curl php v vps web butuh aktif extention cari solusi google coba terinstal belum bisa aktif cek phpinfo extention curl belum muncul
+    - pindah server domain direktur dptsi kampus its surabaya sehubungan surat nomor iii ti perihal beri migrasi subdomain tidak aktif beri server subdomain http hima urplan its whs dipindah server zeus vps subdomain diganti http hima pwk its domain http urplan its bisa dihapuskan diganti domain pwk kerjasamanya ucapkan rival zunaidhi staff teknisi komputer departemen pwk its
+    - request sub folder riset its kait butuh riset prof riyanarto minta dibuatkan subfolder https riset its nama subfolder oscar diarahkan https oscar website disiapkan mahasiswa wassalamualaikum
+    - dukung fasilitasi itsprovement dpsti mohon nya men arrange nama alamat vps web produk implementasi tim digimone its judul sites its sapk
+    - reset user pas hosting lab b telematics its butuh reset user pas hosting b telematics its http b telematics its dikembangkan dibutuhkan perlu tunjang praktikum mahasiswa
+    - backup data website whs backup data website whs hima ee its electra ee its power system ee its
+    - reset factory vps sidi its mohon reset factory vps detail domain sidi its srdt its natuna sidi its ip address kuota tidak website minimal gb
+    - akses dhcp geofisika hamzah staff teknisi komputer departemen teknik geofisika sehubungan gedung tempati minta izin akses dhcp switch access geofisika butuh access point unit
+    - pindah website server hosting zeus admin dptsi mohon pindah website laboratorium https vibrastic ep its server hosting zeus kerja samanya ucapkan
+    - minta vps radityo minta dbuatkan server vps space standart ram
+    - request akses akun server smart classroom hafid pic teknis vendor smartclassroom gedung pasca sarjana its smartclassroom butuh server layan vod video on demand live streaming spesifikasi proc intel i xeon e ram gb storage tb kali raid os windows server mohon anta tim dptsi dapat support butuh server
+    - tambah kuota direktur dptsi sehubungan aplikasi monev biro sarpras jalankan guna aju tambah kuata hosting https www its sarpras monev https www its sarpras monev guna nya dekat batas enggak benah program internal nya penggunaa hosting efektif kerjasamanya ardian naftali biro sarpras
+    - akses ssh hosting akses ssh hosting ichiro its
+    - domain broken fixed kepala dptsi kampus its beri link broken departemen pwk diperbaiki mohon dicek trimakasih rival zunaidhi staff teknisi komputer departemen rencana wilayah kota fadp its
+    - ubah domain minta himpun teknik kimia website http hima chem eng its dirubah subfolder arek its hmchem eng
+    - server produksi resits server produksi resits php
+
